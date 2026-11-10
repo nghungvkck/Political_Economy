@@ -67,7 +67,7 @@
       <section class="how-section" aria-label="Cách làm bài">
         <div class="section-intro"><h2>Cách làm bài</h2></div>
         <div class="how-steps">
-          <article><span class="step-number">01</span><h3>Chọn đáp án</h3><p>Mỗi câu chọn một đáp án. Bạn có thể quay lại đổi lựa chọn trước khi nộp.</p></article>
+          <article><span class="step-number">01</span><h3>Chọn đáp án</h3><p>Chọn một đáp án để xem đúng / sai và giải thích. Bạn có thể đổi lựa chọn trước khi nộp.</p></article>
           <article><span class="step-number">02</span><h3>Nhận kết quả</h3><p>Xem điểm, câu đúng, câu sai và đáp án để biết mình cần ôn thêm phần nào.</p></article>
           <article><span class="step-number">03</span><h3>Thử một đề mới</h3><p>Bấm làm lại để nhận đề ngẫu nhiên mới, vẫn giữ đúng tỷ lệ ba chương.</p></article>
         </div>
@@ -95,7 +95,7 @@
               <input type="radio" name="answer" id="option-${o.label}" value="${o.label}" data-question="${q.id}" ${selected === o.label ? 'checked' : ''}>
               <span class="option-letter" aria-hidden="true">${o.label}</span><span class="option-text">${esc(o.text)}</span><span class="option-check" aria-hidden="true">${selected === o.label ? (isCorrect ? '✓' : '✕') : ''}</span>
             </label>`).join('')}</div></fieldset>
-          <div id="answer-feedback" class="answer-feedback ${selected ? (isCorrect ? 'feedback-correct' : 'feedback-incorrect') : ''}" role="status" aria-live="polite" aria-atomic="true">${feedback}</div>
+          <div id="answer-feedback" class="answer-feedback ${selected ? (isCorrect ? 'feedback-correct' : 'feedback-incorrect') : ''}" role="status" aria-live="polite" aria-atomic="true">${feedback}${selected && q.explanation ? `<div class="answer-explanation"><b>Giải thích</b><p>${esc(q.explanation)}</p></div>` : ''}</div>
           <div class="question-footer"><button class="button secondary" data-action="previous" ${state.current === 0 ? 'disabled' : ''}><span aria-hidden="true">←</span> Câu trước</button><span class="selection-hint">${selected ? 'Đã lưu lựa chọn' : 'Chọn một đáp án ở trên'}</span>${state.current < 49 ? `<button class="button primary" data-action="next">Câu tiếp ${arrow}</button>` : '<button class="button primary" data-action="submit">Nộp bài ✓</button>'}</div>
         </section>
         <aside class="exam-sidebar" aria-label="Tiến độ làm bài">
@@ -120,7 +120,7 @@
         const right = o.label === item.correct;
         const chosen = o.label === item.selected;
         return `<div class="review-option ${right ? 'right' : chosen ? 'wrong' : ''}"><span class="review-letter">${o.label}</span><span>${esc(o.text)}</span>${right ? '<small>✓ Đáp án đúng</small>' : chosen ? '<small>✕ Bạn đã chọn</small>' : ''}${right && chosen ? '<small class="chosen-note">Bạn đã chọn</small>' : ''}</div>`;
-      }).join('')}</div>${item.status === 'unanswered' ? '<p class="unanswered-note">Bạn chưa chọn đáp án cho câu này.</p>' : ''}${q.explanation ? `<details class="explanation"><summary>Xem giải thích</summary><p>${esc(q.explanation)}</p></details>` : ''}</article>`;
+      }).join('')}</div>${item.status === 'unanswered' ? '<p class="unanswered-note">Bạn chưa chọn đáp án cho câu này.</p>' : ''}${q.explanation ? `<section class="explanation" aria-label="Giải thích đáp án"><h4>Giải thích</h4><p>${esc(q.explanation)}</p></section>` : ''}</article>`;
   }
 
   function renderResult() {

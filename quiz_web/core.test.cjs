@@ -30,6 +30,7 @@ test('only eligible single-answer questions are exported', () => {
     assert.equal(q.options.length, 4);
     assert.equal(new Set(q.options.map(o => o.text)).size, 4);
     assert.equal(q.options.filter(o => o.label === q.answer).length, 1);
+    assert(q.explanation.trim().length > 60, `Missing a substantive explanation: ${q.id}`);
   }
 });
 
@@ -89,19 +90,23 @@ test('UI flow: start, change an answer, navigate, submit, review and start a fre
   const first = app.saved().exam[0];
   const q = bank.find(q => q.id === first);
   const wrong = q.options.find(o => o.label !== q.answer).label;
+  assert.doesNotMatch(app.html(), /class="answer-explanation"/);
   app.answer(first, wrong);
   assert.equal(app.saved().answers[first], wrong);
   assert.match(app.html(), /feedback-incorrect/);
   assert.match(app.html(), /<strong>Sai\.<\/strong> Đáp án đúng:/);
   assert.match(app.html(), /selected answer-wrong/);
+  assert.match(app.html(), /class="answer-explanation"><b>Giải thích<\/b>/);
   app.answer(first, q.answer);
   assert.equal(app.saved().answers[first], q.answer);
   assert.match(app.html(), /feedback-correct/);
   assert.match(app.html(), /<strong>Đúng\.<\/strong>/);
+  assert.match(app.html(), /class="answer-explanation"><b>Giải thích<\/b>/);
   assert.doesNotMatch(app.html(), /<strong>Sai\.<\/strong>/);
   app.click('next');
   assert.equal(app.saved().current, 1);
   assert.doesNotMatch(app.html(), /<strong>(Đúng|Sai)\.<\/strong>/);
+  assert.doesNotMatch(app.html(), /class="answer-explanation"/);
   const second = app.saved().exam[1];
   const q2 = bank.find(q => q.id === second);
   app.answer(second, q2.options.find(o => o.label !== q2.answer).label);
@@ -116,6 +121,7 @@ test('UI flow: start, change an answer, navigate, submit, review and start a fre
   assert.equal(app.saved().phase, 'result');
   assert.match(app.html(), /Kết quả bài làm/);
   assert.equal((app.html().match(/class="review-card"/g) || []).length, 50);
+  assert.equal((app.html().match(/aria-label="Giải thích đáp án"/g) || []).length, 50);
   assert.match(app.html(), /<strong>0,2<\/strong><span>\/ 10<\/span>/);
   const previous = app.saved().exam;
   app.click('filter', { filter: 'incorrect' });

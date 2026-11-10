@@ -6,11 +6,11 @@ Trang web trắc nghiệm Kinh tế chính trị Mác – Lênin. Tạo đề ng
 
 - Tạo đề 50 câu theo đúng tỷ lệ các chương, không lặp câu trong một đề.
 - Chọn một đáp án cho mỗi câu, có thể đổi lựa chọn trước khi nộp.
-- Hiện đúng / sai ngay dưới các lựa chọn sau khi chọn; nếu sai, hiển thị đáp án đúng. Khi đổi lựa chọn, kết quả cập nhật ngay.
+- Hiện đúng / sai và giải thích ngay dưới các lựa chọn sau khi chọn; nếu sai, hiển thị đáp án đúng. Khi đổi lựa chọn, kết quả cập nhật ngay.
 - Chuyển câu bằng nút trước / tiếp hoặc bảng số câu hỏi.
 - Hiển thị tiến độ và xác nhận trước khi nộp bài.
 - Chấm điểm trên thang 10, thống kê kết quả theo chương.
-- Xem câu đúng, câu sai, câu bỏ trống, đáp án đúng và giải thích nếu có.
+- Xem câu đúng, câu sai, câu bỏ trống, đáp án đúng và giải thích của từng câu.
 - Lọc bài làm theo trạng thái đúng / sai / chưa trả lời.
 - Bấm **Làm lại** để tạo đề mới.
 - Tự lưu bài làm trên trình duyệt hiện tại bằng `localStorage`.
@@ -99,13 +99,15 @@ node quiz_web/core.test.cjs
 
 Sau đó đưa bản `assets/bank.js` mới lên GitHub. Chương trình chỉ xuất các câu đủ điều kiện cho đề một đáp án, loại câu thiếu đáp án, nhiều đáp án hoặc có lựa chọn trùng nội dung.
 
+Lời giải của 198 câu nằm trong `question_bank/explanations.json`. Sau khi sửa lời giải, chạy `python question_bank/apply_reviews.py` rồi xuất lại bằng `python quiz_web/export_bank.py`. Lời giải được đồng bộ vào SQLite, JSON và bản xuất cho website.
+
 Các đáp án có sẵn / bôi đậm trong Word được người dùng xác nhận là đúng. Các lời giải bổ sung và câu cần rà soát được lưu trong [báo cáo đáp án](question_bank/ANSWER_REVIEW.md). Xem [hướng dẫn ngân hàng câu hỏi](question_bank/README.md) để biết cách nhập lại tài liệu và quản lý dữ liệu.
 
 ## Lưu bài làm
 
 Bài làm được lưu trên trình duyệt và thiết bị đang dùng, không gửi đến máy chủ. Tải lại trang sẽ tiếp tục bài đang làm hoặc hiển thị lại kết quả đã nộp. Bấm **Làm lại** sẽ tạo đề mới và thay bài đang lưu.
 
-Khi phiên bản ngân hàng câu hỏi thay đổi, bài lưu từ phiên bản cũ sẽ được bỏ qua để tránh chấm sai dữ liệu. Nếu trình duyệt không cho phép lưu, trang vẫn hoạt động trong tab hiện tại.
+Khi câu hỏi, lựa chọn hoặc đáp án thay đổi, phiên bản ngân hàng đổi và bài lưu từ phiên bản cũ sẽ được bỏ qua để tránh chấm sai dữ liệu. Chỉ cập nhật giải thích thì vẫn giữ bài đang làm. Nếu trình duyệt không cho phép lưu, trang vẫn hoạt động trong tab hiện tại.
 
 ## Kiểm tra chức năng
 

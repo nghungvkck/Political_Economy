@@ -18,9 +18,18 @@ with sqlite3.connect(SOURCE) as db:
         questions.append({'id': row['id'], 'chapter': row['chapter'], 'text': row['question'],
                           'options': options, 'answer': row['answer_labels'],
                           'explanation': row['explanation'] or ''})
-serialized = json.dumps(questions, ensure_ascii=False, separators=(',', ':'))
+serialized = json.dumps([{k:v for k,v in q.items() if k != 'explanation'} for q in questions],
+                        ensure_ascii=False, separators=(',', ':'))
 payload = {'version': hashlib.sha256(serialized.encode()).hexdigest()[:16], 'questions': questions}
 output = HERE.parent / 'assets' / 'bank.js'
+if output.exists():
+    try:
+        previous = json.loads(output.read_text(encoding='utf-8').strip().removeprefix('window.QUIZ_BANK = ').removesuffix(';'))
+        previous_content = [{k:v for k,v in q.items() if k != 'explanation'} for q in previous['questions']]
+        if previous_content == [{k:v for k,v in q.items() if k != 'explanation'} for q in questions]:
+            payload['version'] = previous['version']
+    except (ValueError, KeyError, TypeError):
+        pass
 output.parent.mkdir(exist_ok=True)
 output.write_text('window.QUIZ_BANK = ' + json.dumps(payload, ensure_ascii=False) + ';\n', encoding='utf-8')
 print(f'Exported {len(questions)} questions: ' + ', '.join(

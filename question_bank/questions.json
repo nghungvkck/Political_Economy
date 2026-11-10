@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "sources": [
     {
       "id": "src-f38c2c0ea236",
@@ -126,7 +126,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Trong sản xuất tự cung, tự cấp, người sản xuất làm ra sản phẩm để đáp ứng nhu cầu trực tiếp của mình hoặc gia đình. Làm ra sản phẩm nhằm trao đổi, mua bán là đặc trưng của sản xuất hàng hóa."
     },
     {
       "id": "src-f38c2c0ea236-q002",
@@ -215,7 +216,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Cả hai hình thức sản xuất đều cần kết hợp sức lao động với tư liệu sản xuất để tạo ra sản phẩm. Điểm khác nhau chủ yếu là mục đích sử dụng sản phẩm: tự tiêu dùng hay trao đổi, mua bán."
     },
     {
       "id": "src-f38c2c0ea236-q003",
@@ -304,7 +306,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Hai điều kiện phải cùng tồn tại là phân công lao động xã hội và sự tách biệt tương đối về kinh tế giữa những người sản xuất. Điều kiện thứ nhất tạo nhu cầu trao đổi; điều kiện thứ hai khiến sản phẩm phải được trao đổi dưới hình thức hàng hóa."
     },
     {
       "id": "src-f38c2c0ea236-q004",
@@ -393,7 +396,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Một sản phẩm chỉ là hàng hóa khi do lao động tạo ra, có khả năng đáp ứng nhu cầu và được đưa ra trao đổi, mua bán. Chỉ có ích hoặc chỉ là sản phẩm lao động thì chưa đủ."
     },
     {
       "id": "src-f38c2c0ea236-q005",
@@ -482,7 +486,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Hàng hóa có hai thuộc tính: giá trị sử dụng và giá trị. Giá trị sử dụng nói đến công dụng; giá trị nói đến lao động xã hội kết tinh trong hàng hóa."
     },
     {
       "id": "src-f38c2c0ea236-q006",
@@ -571,7 +576,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị sử dụng là khả năng đáp ứng một nhu cầu thông qua công dụng của sản phẩm. Nó không phải giá tiền hay lượng lao động đã hao phí để làm ra sản phẩm."
     },
     {
       "id": "src-f38c2c0ea236-q007",
@@ -660,7 +666,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị thể hiện lượng lao động xã hội, trừu tượng kết tinh trong hàng hóa. Cần phân biệt giá trị với công dụng của hàng hóa và với giá cả là hình thức biểu hiện bằng tiền."
     },
     {
       "id": "src-f38c2c0ea236-q008",
@@ -749,7 +756,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Lao động cụ thể có mục đích, đối tượng, công cụ và phương pháp riêng, nhờ đó tạo ra sản phẩm có công dụng xác định. Vì vậy nó tạo ra giá trị sử dụng."
     },
     {
       "id": "src-f38c2c0ea236-q009",
@@ -838,7 +846,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Khi gạt bỏ hình thức nghề nghiệp cụ thể, lao động được xét như sự hao phí sức lao động nói chung. Mặt lao động trừu tượng này tạo ra giá trị của hàng hóa."
     },
     {
       "id": "src-f38c2c0ea236-q010",
@@ -927,7 +936,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Trao đổi hàng hóa dựa trên mức hao phí mà xã hội thừa nhận, không dựa vào việc một người riêng lẻ làm nhanh hay chậm. Thước đo vì vậy là thời gian lao động xã hội cần thiết."
     },
     {
       "id": "src-f38c2c0ea236-q011",
@@ -1016,7 +1026,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Bộ đề quy ước đáp án là 2 cách. Tuy nhiên câu hỏi chưa nêu rõ hai cách nào trong bài giảng, nên không thể suy ra một phân loại duy nhất từ câu chữ này. Nguyên tắc cần nhớ là lượng giá trị được đo bằng thời gian lao động xã hội cần thiết."
     },
     {
       "id": "src-f38c2c0ea236-q012",
@@ -1105,7 +1116,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Theo cách phân nhóm ba nhân tố của bộ đề: năng suất lao động, cường độ lao động và mức độ phức tạp của lao động. Cần phân biệt tổng giá trị với giá trị một đơn vị: tăng cường độ làm tăng tổng sản phẩm và tổng giá trị, nhưng không tự làm đổi giá trị một đơn vị."
     },
     {
       "id": "src-f38c2c0ea236-q013",
@@ -1194,7 +1206,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Lao động phức tạp được quy thành lao động giản đơn nhân lên. Do đó cùng một thời gian, lao động phức tạp có thể được tính là tạo ra lượng giá trị lớn hơn lao động giản đơn."
     },
     {
       "id": "src-f38c2c0ea236-q014",
@@ -1283,7 +1296,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Ứng dụng khoa học và công nghệ giúp tạo được nhiều sản phẩm hơn trong cùng thời gian hoặc giảm thời gian cần cho một sản phẩm. Tăng số lao động hoặc kéo dài lao động không tự đồng nghĩa với tăng năng suất."
     },
     {
       "id": "src-f38c2c0ea236-q015",
@@ -1372,7 +1386,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Bốn hình thái lần lượt là giản đơn hay ngẫu nhiên, đầy đủ hay mở rộng, chung và tiền tệ. Tiền tệ xuất hiện khi vai trò vật ngang giá chung được cố định vào một hàng hóa."
     },
     {
       "id": "src-f38c2c0ea236-q016",
@@ -1461,7 +1476,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Năm chức năng gồm thước đo giá trị, phương tiện lưu thông, phương tiện thanh toán, phương tiện cất trữ và tiền tệ thế giới. Các chức năng phản ánh những cách tiền tham gia các quan hệ trao đổi."
     },
     {
       "id": "src-f38c2c0ea236-q017",
@@ -1550,7 +1566,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tiền là hàng hóa đặc biệt vì được tách ra làm vật ngang giá chung. Nhờ đó các hàng hóa khác có thể biểu hiện giá trị và trao đổi thông qua tiền."
     },
     {
       "id": "src-f38c2c0ea236-q018",
@@ -1639,7 +1656,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Cắt tóc là dịch vụ: lợi ích được cung cấp qua hoạt động phục vụ, không phải một vật thể hữu hình được bàn giao như xe máy, rau quả hay quần áo. Vì thế đây là ví dụ về hàng hóa vô hình."
     },
     {
       "id": "src-f38c2c0ea236-q019",
@@ -1728,7 +1746,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Đáp án nguồn quy ước có 4 loại. Số loại thị trường phụ thuộc tiêu chí phân chia, chẳng hạn đối tượng giao dịch, phạm vi hoặc mức độ cạnh tranh; đề chưa nêu tiêu chí nên không thể khẳng định mọi cách phân loại đều có đúng 4 loại."
     },
     {
       "id": "src-f38c2c0ea236-q020",
@@ -1817,7 +1836,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Theo cách trình bày bốn nhóm đặc trưng của bộ đề: chủ thể đa dạng và tự chủ, thị trường phân bổ nguồn lực, giá cả và lợi ích kinh tế định hướng hoạt động, và nền kinh tế có tính mở. Cách gộp các đặc trưng có thể khác giữa bài giảng; số 4 ở đây theo tài liệu nguồn."
     },
     {
       "id": "src-f38c2c0ea236-q021",
@@ -1906,7 +1926,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Cơ chế giá cả và cạnh tranh khuyến khích các chủ thể sử dụng nguồn lực vào nơi có lợi thế. Nhờ đó tiềm năng của doanh nghiệp, vùng và địa phương có điều kiện được phát huy."
     },
     {
       "id": "src-f38c2c0ea236-q022",
@@ -1995,7 +2016,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Sản xuất vì lợi ích riêng không tự bảo đảm cân đối cho toàn xã hội. Biến động và mất cân đối có thể gây khủng hoảng, thất nghiệp, lạm phát; đây là những khuyết tật cần cơ chế điều tiết."
     },
     {
       "id": "src-f38c2c0ea236-q023",
@@ -2084,7 +2106,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Trong bốn phương án, cạnh tranh là quy luật vận động của kinh tế thị trường: các chủ thể ganh đua để có điều kiện sản xuất và tiêu thụ có lợi. Cần lưu ý kinh tế thị trường còn chịu quy luật giá trị, cung–cầu và lưu thông tiền tệ; không chỉ có cạnh tranh."
     },
     {
       "id": "src-f38c2c0ea236-q024",
@@ -2173,7 +2196,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Nguồn chọn sản xuất hàng hóa giản đơn. Ở hình thức này việc sản xuất, trao đổi dựa trên hao phí lao động xã hội cần thiết. Quy luật giá trị thực tế còn tác động trong sản xuất hàng hóa tư bản chủ nghĩa, nên không nên hiểu đáp án này là phạm vi áp dụng duy nhất."
     },
     {
       "id": "src-f38c2c0ea236-q025",
@@ -2262,7 +2286,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Hai thuộc tính cùng tồn tại trong một hàng hóa nên thống nhất với nhau. Tuy nhiên người bán hướng tới thực hiện giá trị, người mua hướng tới giá trị sử dụng; hàng không bán được thì giá trị chưa được thực hiện, thể hiện mặt mâu thuẫn."
     },
     {
       "id": "src-f38c2c0ea236-q026",
@@ -2351,7 +2376,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị là nội dung lao động xã hội chứa trong hàng hóa. Giá trị trao đổi là tỷ lệ trao đổi với hàng hóa khác, qua đó nội dung ấy biểu hiện ra ngoài."
     },
     {
       "id": "src-f38c2c0ea236-q027",
@@ -2440,7 +2466,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Cơ sở quyết định giá trị là lao động xã hội cần thiết để sản xuất hàng hóa. Công dụng tạo giá trị sử dụng; khan hiếm và cung–cầu có thể làm giá cả biến động nhưng không thay thế cơ sở giá trị trong lý luận này."
     },
     {
       "id": "src-f38c2c0ea236-q028",
@@ -2529,7 +2556,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Trong lý luận giá trị, giá trị hàng hóa là cơ sở của giá cả. Giá thực tế còn chịu cung–cầu, cạnh tranh và sức mua của tiền, nên không phải lúc nào cũng bằng giá trị."
     },
     {
       "id": "src-f38c2c0ea236-q029",
@@ -2618,7 +2646,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Năng suất xã hội tăng khiến thời gian cần cho một đơn vị sản phẩm giảm. Vì lượng giá trị đơn vị phụ thuộc thời gian này, nó biến đổi ngược chiều với năng suất."
     },
     {
       "id": "src-f38c2c0ea236-q030",
@@ -2707,7 +2736,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tăng cường độ làm hao phí nhiều lao động hơn trong cùng thời gian, nên sản lượng và tổng giá trị cùng tăng. Với các điều kiện khác không đổi, giá trị trên một đơn vị sản phẩm không đổi."
     },
     {
       "id": "src-f38c2c0ea236-q031",
@@ -2796,7 +2826,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Cùng một hoạt động sản xuất hàng hóa được xét dưới hai mặt: lao động cụ thể tạo giá trị sử dụng và lao động trừu tượng tạo giá trị. Đó là cơ sở của hai thuộc tính hàng hóa."
     },
     {
       "id": "src-f38c2c0ea236-q032",
@@ -2885,7 +2916,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Phát hiện tính hai mặt của lao động giải thích được vì sao một hàng hóa vừa có công dụng vừa có giá trị. Nó cũng giúp phân tích vai trò lao động sống và lao động quá khứ trong việc tạo giá trị."
     },
     {
       "id": "src-f38c2c0ea236-q033",
@@ -2974,7 +3006,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Trong H–T–H, bán hàng lấy tiền rồi dùng tiền mua hàng khác. Tiền làm trung gian cho quá trình trao đổi, tức thực hiện chức năng phương tiện lưu thông."
     },
     {
       "id": "src-f38c2c0ea236-q034",
@@ -3063,7 +3096,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Đây là hai mặt của cùng hoạt động lao động nên thống nhất. Nhưng lao động tư nhân có thể không được xã hội thừa nhận khi sản phẩm không đáp ứng nhu cầu hoặc hao phí quá lớn, làm bộc lộ mâu thuẫn."
     },
     {
       "id": "src-f38c2c0ea236-q035",
@@ -3152,7 +3186,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị không trực tiếp hiện thành con số quan sát trên thị trường. Sự lên xuống của giá cả quanh cơ sở giá trị cho thấy quy luật giá trị đang tác động tới lựa chọn của người sản xuất và trao đổi."
     },
     {
       "id": "src-f38c2c0ea236-q036",
@@ -3250,7 +3285,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Người có hao phí cá biệt thấp hơn mức xã hội có lợi thế và dễ tích lũy của cải. Người có hao phí cao dễ thua lỗ hoặc phá sản. Sự phân hóa đó là một tác động của quy luật giá trị."
     },
     {
       "id": "src-f38c2c0ea236-q037",
@@ -3339,7 +3375,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Hàng hóa là đơn vị kinh tế cơ bản và hình thức phổ biến của của cải trong xã hội tư bản. Phân tích nó giúp tìm ra các quan hệ và mâu thuẫn để tiếp tục nghiên cứu phương thức sản xuất tư bản chủ nghĩa."
     },
     {
       "id": "src-f38c2c0ea236-q038",
@@ -3428,7 +3465,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Chạy theo lợi nhuận có thể khiến doanh nghiệp cắt giảm chi phí xử lý chất thải và đẩy thiệt hại ra môi trường. Đây là động cơ kinh tế của hành vi được hỏi, dù thực thi pháp luật và ý thức cũng có ảnh hưởng."
     },
     {
       "id": "src-f38c2c0ea236-q039",
@@ -3517,7 +3555,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Trong mô hình đơn giản của đề, điều chỉnh đồng thời hai phía sẽ thu hẹp chênh lệch tiền–hàng: giảm tiền lưu thông và tăng hàng hóa. Đây là đáp án theo giả định bài học, không có nghĩa thực tế luôn có một biện pháp nhanh nhất trong mọi tình huống."
     },
     {
       "id": "src-f38c2c0ea236-q040",
@@ -3606,7 +3645,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tính hai mặt của lao động là mắt xích giải thích quan hệ giữa giá trị sử dụng và giá trị, đồng thời làm rõ cách giá trị được bảo tồn và tạo mới. Vì vậy bộ đề xem nội dung này là trung tâm lý luận giá trị."
     },
     {
       "id": "src-ebbea014b34e-q001",
@@ -3712,7 +3752,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tiền chỉ vận động như tư bản khi được ứng ra nhằm thu về giá trị lớn hơn, tức có giá trị thặng dư. Tích trữ tiền đơn thuần không làm nó tự trở thành tư bản."
     },
     {
       "id": "src-ebbea014b34e-q002",
@@ -3910,7 +3951,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Người lao động phải tự do về thân thể để có quyền bán sức lao động, đồng thời không có đủ tư liệu sản xuất để tự tổ chức sản xuất. Hai điều kiện này giải thích vì sao sức lao động được đưa ra thị trường."
     },
     {
       "id": "src-ebbea014b34e-q004",
@@ -4008,7 +4050,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị mới do lao động tạo ra gồm phần bù giá trị sức lao động và phần thặng dư. Vì vậy không thể đồng nhất giá cả sức lao động với toàn bộ giá trị mới. Lưu ý mệnh đề C cũng diễn đạt chưa chuẩn: giá trị sử dụng không trực tiếp quyết định giá trị."
     },
     {
       "id": "src-ebbea014b34e-q005",
@@ -4106,7 +4149,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Để tái tạo sức lao động, người lao động cần những tư liệu sinh hoạt nhất định. Giá trị sức lao động vì thế được đo gián tiếp qua giá trị tư liệu sinh hoạt cần thiết, có tính đến đào tạo và tái sản xuất thế hệ lao động."
     },
     {
       "id": "src-ebbea014b34e-q006",
@@ -4204,7 +4248,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Điểm đặc biệt của sức lao động là khi được sử dụng, nó có thể tạo ra lượng giá trị mới lớn hơn giá trị mua nó. Phần chênh lệch là cơ sở giải thích nguồn gốc giá trị thặng dư."
     },
     {
       "id": "src-ebbea014b34e-q007",
@@ -4302,7 +4347,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Công nhân tạo ra một phần giá trị để bù giá trị sức lao động và phần còn lại thuộc về nhà tư bản. Cách nói “lao động không công” trong đáp án chỉ phần lao động thặng dư chưa được trả ngang giá."
     },
     {
       "id": "src-ebbea014b34e-q008",
@@ -4400,7 +4446,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Thời gian tất yếu tạo lượng giá trị tương đương giá trị sức lao động; thời gian thặng dư tạo phần giá trị vượt ra ngoài mức đó. Cộng hai phần được ngày lao động."
     },
     {
       "id": "src-ebbea014b34e-q009",
@@ -4498,7 +4545,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị tư liệu sản xuất đã tiêu dùng được bảo tồn và chuyển vào sản phẩm, không tự tăng lên trong quá trình sản xuất. “Bất biến” nói về vai trò của bộ phận giá trị này, không có nghĩa máy móc không hao mòn."
     },
     {
       "id": "src-ebbea014b34e-q010",
@@ -4600,7 +4648,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tư bản khả biến được ứng ra để mua sức lao động. Việc sử dụng sức lao động tạo ra giá trị mới v+m, lớn hơn phần v ban đầu khi có giá trị thặng dư."
     },
     {
       "id": "src-ebbea014b34e-q011",
@@ -4698,7 +4747,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Đáp án nguồn liên hệ việc phân chia với tính hai mặt của lao động: lao động cụ thể bảo tồn, chuyển giá trị c; lao động trừu tượng tạo giá trị mới v+m. Căn cứ trực tiếp cần nhớ là vai trò khác nhau của c và v trong tạo giá trị thặng dư."
     },
     {
       "id": "src-ebbea014b34e-q012",
@@ -4796,7 +4846,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "m′=m/v×100%. Nếu giữ m không đổi, v tăng thì m′ giảm và ngược lại. Quan hệ tỷ lệ nghịch này cần điều kiện m không đổi, không phải khẳng định v giảm luôn làm m′ tăng trong mọi thực tế."
     },
     {
       "id": "src-ebbea014b34e-q013",
@@ -4894,7 +4945,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Cái công nhân bán là quyền sử dụng sức lao động trong thời gian nhất định. Tiền công vì vậy là giá cả của sức lao động, dù bề ngoài dễ bị hiểu thành giá cả của toàn bộ lao động."
     },
     {
       "id": "src-ebbea014b34e-q014",
@@ -4992,7 +5044,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Bộ phận v mua sức lao động; lao động sống của công nhân tạo ra giá trị mới và giá trị thặng dư. Tư liệu sản xuất c chỉ chuyển giá trị đã có. Nói chặt chẽ, sức lao động tạo thặng dư, không phải bản thân tiền v tự sinh giá trị."
     },
     {
       "id": "src-ebbea014b34e-q015",
@@ -5090,7 +5143,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "m′=m/v phản ánh phần thặng dư so với phần bù sức lao động, hay tỷ lệ thời gian thặng dư so với thời gian tất yếu. Nó đo trình độ khai thác lao động, không phải quy mô tuyệt đối của thặng dư."
     },
     {
       "id": "src-ebbea014b34e-q016",
@@ -5188,7 +5242,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Phương pháp tương đối tăng phần thời gian thặng dư bằng cách rút ngắn thời gian tất yếu nhờ tăng năng suất ở các ngành liên quan tới tư liệu sinh hoạt. Đáp án nguồn xem đây là phương pháp phổ biến trong sản xuất dựa trên cải tiến kỹ thuật."
     },
     {
       "id": "src-ebbea014b34e-q017",
@@ -5286,7 +5341,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tích lũy thường gắn với cơ giới hóa và tăng lượng tư liệu sản xuất trên mỗi lao động. Khi tỷ lệ giá trị phản ánh thay đổi kỹ thuật ấy, cấu tạo hữu cơ c/v có xu hướng tăng."
     },
     {
       "id": "src-ebbea014b34e-q018",
@@ -5384,7 +5440,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Một vòng chu chuyển gồm giai đoạn tư bản nằm trong sản xuất và giai đoạn mua đầu vào, bán đầu ra trong lưu thông. Vì vậy thời gian chu chuyển bằng thời gian sản xuất cộng thời gian lưu thông."
     },
     {
       "id": "src-ebbea014b34e-q019",
@@ -5482,7 +5539,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "c và v là cách phân chia tư bản đang tham gia quá trình sản xuất theo vai trò trong tạo giá trị. Chúng không phải cách phân chia riêng của tư bản tiền tệ hoặc tư bản hàng hóa."
     },
     {
       "id": "src-ebbea014b34e-q020",
@@ -5580,7 +5638,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Người lao động thường làm việc rồi mới nhận tiền công, nên giao dịch có tính bán chịu. Họ bán quyền sử dụng sức lao động có thời hạn, không bán quyền sở hữu bản thân."
     },
     {
       "id": "src-ebbea014b34e-q021",
@@ -5686,7 +5745,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Cả hai phương pháp đều làm tỷ lệ thời gian thặng dư so với thời gian tất yếu tăng, tức m′ tăng. Tuyệt đối kéo dài ngày làm; tương đối rút ngắn thời gian tất yếu."
     },
     {
       "id": "src-ebbea014b34e-q022",
@@ -5792,7 +5852,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tương đối gắn với tăng năng suất xã hội làm giảm giá trị sức lao động. Siêu ngạch gắn với ưu thế năng suất cá biệt của một doanh nghiệp so với mức xã hội. Vì vậy “tăng năng suất xã hội” là điểm phân biệt được chọn."
     },
     {
       "id": "src-ebbea014b34e-q023",
@@ -5890,7 +5951,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tư bản cố định, như máy móc và nhà xưởng, thuộc tư liệu sản xuất nên nằm trong tư bản bất biến. Nhưng tư bản bất biến còn có nguyên vật liệu thuộc tư bản lưu động."
     },
     {
       "id": "src-ebbea014b34e-q024",
@@ -5988,7 +6050,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Mục tiêu trực tiếp của nhà tư bản là làm giá trị ứng trước tăng lên thông qua thu giá trị thặng dư. Sản xuất nhiều hàng hóa là phương tiện để thực hiện mục tiêu ấy."
     },
     {
       "id": "src-ebbea014b34e-q025",
@@ -6086,7 +6149,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị tư liệu sản xuất đã dùng chuyển vào giá trị sản phẩm mới dưới dạng c. Nó góp phần cấu thành toàn bộ giá trị c+v+m, nhưng không thuộc phần giá trị mới v+m do lao động sống tạo ra."
     },
     {
       "id": "src-ebbea014b34e-q026",
@@ -6184,7 +6248,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Khi ngày lao động không đổi, giá trị sức lao động giảm làm thời gian tất yếu giảm và thời gian thặng dư tăng. Với các điều kiện thích hợp, khối lượng thặng dư thu được tăng."
     },
     {
       "id": "src-ebbea014b34e-q027",
@@ -6282,7 +6347,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Máy móc giúp tổ chức sản xuất và nâng năng suất, nhưng không tự tạo giá trị mới. Nguồn trực tiếp của giá trị thặng dư là lao động sống, còn máy móc là điều kiện vật chất."
     },
     {
       "id": "src-ebbea014b34e-q028",
@@ -6380,7 +6446,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tích lũy không chỉ là để dành tiền mà là chuyển một phần giá trị thặng dư thành tư bản phụ thêm để mở rộng sản xuất. Vì vậy đồng nhất tích lũy với tiết kiệm tư bản là không đúng."
     },
     {
       "id": "src-ebbea014b34e-q029",
@@ -6478,7 +6545,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tích lũy diễn ra khi giá trị thặng dư đã thu được không dùng hết cho tiêu dùng cá nhân mà được tái đầu tư. Nguồn trực tiếp của phần tư bản tăng thêm do tích lũy là giá trị thặng dư."
     },
     {
       "id": "src-ebbea014b34e-q030",
@@ -6576,7 +6644,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tiêu thụ hàng hóa là bán sản phẩm nên thuộc thời gian lưu thông. Thời gian sản xuất gồm lao động, gián đoạn lao động và dự trữ sản xuất."
     },
     {
       "id": "src-ebbea014b34e-q031",
@@ -6674,7 +6743,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "K=c+v=1.000 và c/v=4 nên v=1.000/5=200. Khi m=400, m′=m/v×100%=400/200×100%=200%."
     },
     {
       "id": "src-ebbea014b34e-q032",
@@ -6802,7 +6872,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Mua bán sức lao động theo giá trị vẫn có thể tạo thặng dư, vì giá trị sử dụng của sức lao động tạo giá trị mới lớn hơn giá trị của nó. Điều này giải thích sự tăng giá trị trong công thức T–H–T′ mà không phải giả định trao đổi gian lận."
     },
     {
       "id": "src-ebbea014b34e-q034",
@@ -6900,7 +6971,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị thặng dư là một phần giá trị mới do lao động trừu tượng tạo ra, nên trước hết nó cũng là giá trị. Đây là mệnh đề được nguồn chọn; các lựa chọn khác có cách nói rộng hoặc thiếu phân biệt giữa toàn bộ giá trị mới và phần thặng dư."
     },
     {
       "id": "src-ebbea014b34e-q035",
@@ -6998,7 +7070,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tư liệu sản xuất chỉ chuyển giá trị đã có vào sản phẩm. Phần giá trị mới là v+m do lao động sống tạo ra, nên nói giá trị tư liệu sản xuất tham gia tạo thành giá trị mới là sai."
     },
     {
       "id": "src-ebbea014b34e-q036",
@@ -7096,7 +7169,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "v+m là giá trị mới, còn giá trị toàn bộ sản phẩm mới là c+v+m. Đáp án B sai vì đã bỏ phần c được chuyển từ tư liệu sản xuất."
     },
     {
       "id": "src-ebbea014b34e-q037",
@@ -7194,7 +7268,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị thặng dư là phần lao động thặng dư được vật hóa thành giá trị. Tư liệu sản xuất chỉ mang giá trị quá khứ được chuyển vào sản phẩm, không phải bản thân nguồn tạo giá trị thặng dư."
     },
     {
       "id": "src-ebbea014b34e-q038",
@@ -7292,7 +7367,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Nếu ngày lao động chỉ bằng thời gian tất yếu thì chỉ đủ bù giá trị sức lao động và không có thời gian thặng dư. Để tạo thặng dư, ngày lao động phải dài hơn thời gian tất yếu."
     },
     {
       "id": "src-ebbea014b34e-q039",
@@ -7390,7 +7466,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Trả đúng giá trị sức lao động không có nghĩa trả toàn bộ giá trị mới công nhân tạo ra. Công nhân có thể làm việc vượt thời gian tất yếu, tạo phần thặng dư thuộc về nhà tư bản."
     },
     {
       "id": "src-ebbea014b34e-q040",
@@ -7488,7 +7565,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Nguyên vật liệu được tiêu dùng và chuyển toàn bộ giá trị vào sản phẩm trong một chu kỳ, nên thuộc tư bản lưu động. Máy móc và phương tiện lao động chuyển giá trị từng phần qua nhiều chu kỳ."
     },
     {
       "id": "src-ebbea014b34e-q041",
@@ -7586,7 +7664,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tiền lương là phần vốn ứng để mua sức lao động, được hoàn lại qua giá trị sản phẩm sau mỗi vòng sản xuất. Vì vậy phần vốn này thuộc tư bản lưu động."
     },
     {
       "id": "src-ebbea014b34e-q042",
@@ -7684,7 +7763,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tổng giá cả sản xuất bằng chi phí sản xuất cộng lợi nhuận: k=650−150=500. Với giả định vốn ứng trước bằng chi phí trong mô hình đề, tỷ suất bình quân=150/500×100%=30%."
     },
     {
       "id": "src-fa343e9bc4b6-q001",
@@ -7794,7 +7874,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tư bản cố định và lưu động được phân biệt theo cách giá trị được chuyển vào sản phẩm. Cố định chuyển từng phần qua nhiều chu kỳ; lưu động được hoàn lại toàn bộ sau một vòng."
     },
     {
       "id": "src-fa343e9bc4b6-q002",
@@ -7892,7 +7973,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Máy móc, nhà xưởng được dùng nhiều lần nên không chuyển toàn bộ giá trị vào một lô sản phẩm. Giá trị được phân bổ từng phần theo hao mòn trong quá trình sử dụng."
     },
     {
       "id": "src-fa343e9bc4b6-q003",
@@ -7990,7 +8072,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Nguyên vật liệu bị tiêu dùng trong một chu kỳ; phần vốn lưu động được hoàn lại toàn bộ sau vòng đó. Đây là điểm khác với giá trị tư bản cố định được chuyển dần."
     },
     {
       "id": "src-fa343e9bc4b6-q004",
@@ -8088,7 +8171,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Vốn cho nguyên, nhiên vật liệu và mua sức lao động được hoàn lại toàn bộ sau mỗi vòng sản xuất. Lưu ý sức lao động tạo giá trị mới để bù v; không phải giá trị của nó được chuyển cơ học như nguyên liệu."
     },
     {
       "id": "src-fa343e9bc4b6-q005",
@@ -8186,7 +8270,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Mô hình chu kỳ truyền thống gồm khủng hoảng, tiêu điều, phục hồi và hưng thịnh. Các giai đoạn mô tả sự suy giảm rồi khôi phục và mở rộng sản xuất."
     },
     {
       "id": "src-fa343e9bc4b6-q006",
@@ -8284,7 +8369,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Chi phí mà nhà tư bản bỏ ra gồm phần mua tư liệu sản xuất c và sức lao động v, nên k=c+v. Giá trị thặng dư m thuộc giá trị hàng hóa nhưng không phải khoản nhà tư bản trả cho lao động thặng dư."
     },
     {
       "id": "src-fa343e9bc4b6-q007",
@@ -8382,7 +8468,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị hàng hóa là W=c+v+m, còn chi phí sản xuất k=c+v. Khi m>0 thì k<W; phần chênh lệch là giá trị thặng dư."
     },
     {
       "id": "src-fa343e9bc4b6-q008",
@@ -8480,7 +8567,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Lợi nhuận là hình thức biểu hiện chuyển hóa của giá trị thặng dư. Xét nguồn gốc, cả hai gắn với phần lao động thặng dư không được trả công của người lao động làm thuê."
     },
     {
       "id": "src-fa343e9bc4b6-q009",
@@ -8578,7 +8666,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Nếu bán đúng giá trị W=c+v+m thì lợi nhuận p=W−k=m. Bán lệch giá trị có thể khiến p của doanh nghiệp khác m."
     },
     {
       "id": "src-fa343e9bc4b6-q010",
@@ -8676,7 +8765,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Lợi nhuận được tính bằng giá bán trừ chi phí. Giá bán có thể cao hơn, bằng hoặc thấp hơn giá trị, nên lợi nhuận cá biệt cũng có thể lớn hơn, bằng hoặc nhỏ hơn giá trị thặng dư."
     },
     {
       "id": "src-fa343e9bc4b6-q011",
@@ -8774,7 +8864,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Trong giả định p=m và c>0, p′=m/(c+v) còn m′=m/v. Mẫu số c+v lớn hơn v nên p′<m′. Cần phân biệt hai tỷ suất với lượng giá trị thặng dư."
     },
     {
       "id": "src-fa343e9bc4b6-q012",
@@ -8876,7 +8967,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tỷ suất lợi nhuận so lượng lợi nhuận với toàn bộ tư bản ứng trước: p′=p/(c+v)×100%. Trong mô hình p=m, công thức được viết m/(c+v)×100%."
     },
     {
       "id": "src-fa343e9bc4b6-q013",
@@ -8974,7 +9066,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Các doanh nghiệp cùng ngành có điều kiện và giá trị cá biệt khác nhau nhưng cùng bán trên thị trường ngành. Sự cạnh tranh đó dẫn đến hình thành mức giá trị thị trường được xã hội thừa nhận."
     },
     {
       "id": "src-fa343e9bc4b6-q014",
@@ -9072,7 +9165,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Cạnh tranh nội bộ ngành diễn ra giữa những người sản xuất cùng một loại hàng hóa. Cạnh tranh giữa các ngành là quá trình tìm nơi đầu tư có tỷ suất sinh lời tốt hơn."
     },
     {
       "id": "src-fa343e9bc4b6-q015",
@@ -9170,7 +9264,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Doanh nghiệp tìm cách hạ giá trị cá biệt dưới mức xã hội trong khi bán theo điều kiện thị trường chung. Phần lợi nhuận vượt mức thông thường là lợi nhuận siêu ngạch."
     },
     {
       "id": "src-fa343e9bc4b6-q016",
@@ -9268,7 +9363,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Đây là cạnh tranh giữa các nhà tư bản đầu tư ở những ngành khác nhau. Họ so sánh mức sinh lời và có thể chuyển vốn từ ngành này sang ngành khác."
     },
     {
       "id": "src-fa343e9bc4b6-q017",
@@ -9366,7 +9462,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Động lực chuyển vốn là thu được tỷ suất lợi nhuận cao hơn. Ngành có hàng giá cao hoặc giá trị sử dụng cao chưa chắc có mức sinh lời trên vốn cao hơn."
     },
     {
       "id": "src-fa343e9bc4b6-q018",
@@ -9464,7 +9561,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Vốn dịch chuyển từ nơi lợi nhuận thấp sang nơi lợi nhuận cao, làm cung và tỷ suất các ngành biến đổi. Xu hướng đó hình thành tỷ suất lợi nhuận bình quân và lợi nhuận bình quân."
     },
     {
       "id": "src-fa343e9bc4b6-q019",
@@ -9562,7 +9660,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Khi có tỷ suất lợi nhuận bình quân chung, lợi nhuận bình quân bằng tỷ suất đó nhân tư bản ứng trước. Vì vậy những lượng tư bản bằng nhau có lợi nhuận bình quân bằng nhau dù đầu tư khác ngành."
     },
     {
       "id": "src-fa343e9bc4b6-q020",
@@ -9660,7 +9759,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Đây là tỷ suất chung giữa các ngành, được tính theo tổng thặng dư chia tổng tư bản ứng trước. Nó không phải trung bình cộng giản đơn nếu quy mô vốn các ngành khác nhau."
     },
     {
       "id": "src-fa343e9bc4b6-q021",
@@ -9758,7 +9858,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Khi lợi nhuận được phân phối theo tỷ suất bình quân, giá bán làm cơ sở là chi phí cộng lợi nhuận bình quân. Giá trị hàng hóa vì thế biểu hiện thành giá cả sản xuất."
     },
     {
       "id": "src-fa343e9bc4b6-q022",
@@ -9856,7 +9957,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Công thức giá cả sản xuất là k+p̄: chi phí sản xuất cộng số lợi nhuận bình quân. Không cộng trực tiếp một tỷ suất phần trăm vào một lượng tiền."
     },
     {
       "id": "src-fa343e9bc4b6-q023",
@@ -9954,7 +10056,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Trong tự do cạnh tranh, giá cả sản xuất hình thành trên cơ sở phân phối lại giá trị thặng dư giữa các ngành. Quy luật giá trị tiếp tục tác động thông qua hình thức biểu hiện này."
     },
     {
       "id": "src-fa343e9bc4b6-q024",
@@ -10052,7 +10155,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Tư bản thương nghiệp tách ra từ chức năng lưu thông hàng hóa của tư bản công nghiệp và chuyên thực hiện mua bán. Nó giúp việc tiêu thụ hàng hóa được chuyên môn hóa."
     },
     {
       "id": "src-fa343e9bc4b6-q025",
@@ -10150,7 +10254,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Hoạt động mua bán thuần túy không tự sản xuất ra giá trị thặng dư mới. Phần lợi nhuận thương nghiệp có nguồn gốc từ giá trị thặng dư mà tư bản sản xuất nhường lại cho chức năng tiêu thụ."
     },
     {
       "id": "src-fa343e9bc4b6-q026",
@@ -10248,7 +10353,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Người sở hữu cho người khác sử dụng một lượng tư bản tiền tệ trong thời gian thỏa thuận và thu lợi tức. Cho vay chuyển quyền sử dụng tạm thời, không chuyển hẳn quyền sở hữu vốn."
     },
     {
       "id": "src-fa343e9bc4b6-q027",
@@ -10346,7 +10452,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Người đi vay sử dụng vốn trong kinh doanh rồi chia một phần giá trị thặng dư dưới hình thức lợi tức cho người cho vay. Vì vậy nguồn gốc cuối cùng của lợi tức là giá trị thặng dư."
     },
     {
       "id": "src-fa343e9bc4b6-q028",
@@ -10444,7 +10551,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Người cho vay vẫn sở hữu vốn nhưng người đi vay trực tiếp sử dụng vốn trong thời hạn vay. Đó là sự tách rời quyền sở hữu và quyền sử dụng."
     },
     {
       "id": "src-fa343e9bc4b6-q029",
@@ -10542,7 +10650,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Đối với người cho vay, tiền được ứng ra rồi thu về số tiền lớn hơn: T–T′, với phần tăng là lợi tức. Các khâu sử dụng vốn của người vay bị ẩn khỏi hình thức vận động này."
     },
     {
       "id": "src-fa343e9bc4b6-q030",
@@ -10640,7 +10749,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Trong mô hình thông thường, lợi tức phải dương để người có vốn muốn cho vay và nhỏ hơn lợi nhuận bình quân để người vay còn lợi nhuận doanh nghiệp. Do đó 0<z′<p̄′; đây là giới hạn lý luận, không phải quy tắc bất biến của mọi giao dịch thực tế."
     },
     {
       "id": "src-fa343e9bc4b6-q031",
@@ -10746,7 +10856,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "z′=z/K cho vay×100%, trong đó z là số lợi tức nhận được. Mẫu số là lượng tư bản cho vay, không phải lợi nhuận hay giá trị thặng dư."
     },
     {
       "id": "src-fa343e9bc4b6-q032",
@@ -10844,7 +10955,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Nhà tư bản nông nghiệp nhận lợi nhuận bình quân; phần thặng dư ngoài mức đó có thể được chuyển cho chủ đất dưới hình thức địa tô. Cần phân biệt địa tô với toàn bộ lợi nhuận kinh doanh nông nghiệp."
     },
     {
       "id": "src-fa343e9bc4b6-q033",
@@ -10942,7 +11054,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Hai hình thức cơ bản là địa tô chênh lệch và địa tô tuyệt đối. Chênh lệch I và II là hai dạng thuộc địa tô chênh lệch, không phải hai nhóm cơ bản cùng cấp."
     },
     {
       "id": "src-fa343e9bc4b6-q034",
@@ -11040,7 +11153,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Địa tô tuyệt đối phải trả do quyền sở hữu ruộng đất, kể cả khi thuê loại đất xấu. Nó khác địa tô chênh lệch phụ thuộc lợi thế hoặc đầu tư thâm canh."
     },
     {
       "id": "src-fa343e9bc4b6-q035",
@@ -11138,7 +11252,8 @@
       "answer_verification": {
         "method": "user_confirmed_source",
         "date": "2026-11-10"
-      }
+      },
+      "explanation": "Cả địa tô chênh lệch và tuyệt đối đều là hình thức phân chia giá trị thặng dư trong sản xuất nông nghiệp tư bản chủ nghĩa. Chúng khác nhau về cơ chế hình thành chứ không khác nguồn gốc cuối cùng."
     },
     {
       "id": "src-811c9106b75b-q001",
@@ -11236,7 +11351,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Một sản phẩm chỉ là hàng hóa khi do lao động tạo ra, có khả năng đáp ứng nhu cầu và được đưa ra trao đổi, mua bán. Chỉ có ích hoặc chỉ là sản phẩm lao động thì chưa đủ."
     },
     {
       "id": "src-811c9106b75b-q002",
@@ -11342,7 +11458,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Hai điều kiện phải cùng tồn tại là phân công lao động xã hội và sự tách biệt tương đối về kinh tế giữa những người sản xuất. Điều kiện thứ nhất tạo nhu cầu trao đổi; điều kiện thứ hai khiến sản phẩm phải được trao đổi dưới hình thức hàng hóa."
     },
     {
       "id": "src-811c9106b75b-q003",
@@ -11440,7 +11557,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Trong lý luận giá trị, giá trị hàng hóa là cơ sở của giá cả. Giá thực tế còn chịu cung–cầu, cạnh tranh và sức mua của tiền, nên không phải lúc nào cũng bằng giá trị."
     },
     {
       "id": "src-811c9106b75b-q004",
@@ -11737,7 +11855,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Lao động cụ thể có mục đích, đối tượng, công cụ và phương pháp riêng, nhờ đó tạo ra sản phẩm có công dụng xác định. Vì vậy nó tạo ra giá trị sử dụng."
     },
     {
       "id": "src-811c9106b75b-q007",
@@ -11835,7 +11954,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Khi gạt bỏ hình thức nghề nghiệp cụ thể, lao động được xét như sự hao phí sức lao động nói chung. Mặt lao động trừu tượng này tạo ra giá trị của hàng hóa."
     },
     {
       "id": "src-811c9106b75b-q008",
@@ -11933,7 +12053,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Một hàng hóa có thể thỏa mãn nhiều nhu cầu nhờ có nhiều thuộc tính hữu ích. Tuy nhiên nếu hoàn toàn không có giá trị sử dụng thì nó không thể là hàng hóa."
     },
     {
       "id": "src-811c9106b75b-q009",
@@ -12039,7 +12160,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Thị trường kết nối người mua và người bán, tạo đầu ra và tín hiệu để người sản xuất điều chỉnh hoạt động. Việc trực tiếp sản xuất dịch vụ công thuộc về các chủ thể, không phải bản thân thị trường."
     },
     {
       "id": "src-811c9106b75b-q010",
@@ -12137,7 +12259,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Hai điều kiện lý luận là phân công lao động xã hội và sự tách biệt tương đối về kinh tế của người sản xuất. “Yếu tố thị trường để tiêu thụ” không phải điều kiện độc lập trong cặp điều kiện đó."
     },
     {
       "id": "src-811c9106b75b-q011",
@@ -12235,7 +12358,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Mỗi loại lao động cụ thể có nghề nghiệp và sản phẩm riêng; tổng thể các lao động ấy hình thành phân công lao động xã hội. Lao động cụ thể tạo giá trị sử dụng chứ không trực tiếp là mặt tạo giá trị."
     },
     {
       "id": "src-811c9106b75b-q012",
@@ -12435,7 +12559,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Năng suất giảm làm cần nhiều thời gian lao động xã hội hơn để tạo một đơn vị sản phẩm. Vì thế giá trị đơn vị tăng, nếu các điều kiện còn lại không đổi."
     },
     {
       "id": "src-811c9106b75b-q014",
@@ -12630,7 +12755,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Lao động giản đơn không đòi hỏi đào tạo chuyên môn đặc biệt và người lao động bình thường có thể thực hiện. Nó không có nghĩa mọi người đều có thể làm mọi công việc trong thực tế."
     },
     {
       "id": "src-811c9106b75b-q016",
@@ -12728,7 +12854,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Lao động phức tạp đòi hỏi đào tạo, rèn luyện chuyên môn hoặc kỹ năng nhất định. Xét về tạo giá trị, nó được quy thành lao động giản đơn nhân lên."
     },
     {
       "id": "src-811c9106b75b-q017",
@@ -12826,7 +12953,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Trao đổi hàng hóa dựa trên mức hao phí mà xã hội thừa nhận, không dựa vào việc một người riêng lẻ làm nhanh hay chậm. Thước đo vì vậy là thời gian lao động xã hội cần thiết."
     },
     {
       "id": "src-811c9106b75b-q018",
@@ -12924,7 +13052,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị gắn với sản xuất và trao đổi hàng hóa, không tồn tại vĩnh viễn trong mọi kiểu tổ chức sản xuất. Giá trị trao đổi là hình thức biểu hiện của giá trị, không phải yếu tố quyết định giá trị."
     },
     {
       "id": "src-811c9106b75b-q019",
@@ -13022,7 +13151,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Người sản xuất trực tiếp tạo ra và cung ứng hàng hóa, là một chủ thể cơ bản của thị trường. Các chủ thể khác có thể tham gia nhưng không thay thế vai trò này."
     },
     {
       "id": "src-811c9106b75b-q020",
@@ -13120,7 +13250,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Hàng hóa có hai thuộc tính: giá trị sử dụng và giá trị. Giá trị sử dụng nói đến công dụng; giá trị nói đến lao động xã hội kết tinh trong hàng hóa."
     },
     {
       "id": "src-811c9106b75b-q021",
@@ -13218,7 +13349,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Thước đo giá trị là một chức năng của tiền: dùng tiền biểu hiện lượng giá trị và giá cả. Đánh giá mức giàu có hay tăng trưởng quốc gia không phải tên chức năng cơ bản của tiền trong câu hỏi."
     },
     {
       "id": "src-811c9106b75b-q022",
@@ -13396,7 +13528,8 @@
         ],
         "method": "calculation",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Lấy tổng thời gian lao động chia tổng sản lượng: (2×250+4×450+1×100)/(250+450+100)=2.400/800=3 giờ/HH. Đây là cách tính bình quân gia quyền theo dữ kiện của bài, không phải bình quân cộng ba thời gian."
     },
     {
       "id": "src-811c9106b75b-q023",
@@ -13502,7 +13635,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị sử dụng thể hiện ở công dụng có thể nhận biết của vật, nên là điểm xuất phát trực quan trước khi phân tích giá trị. Nó là vật mang giá trị trao đổi chứ không phải lao động quyết định giá trị."
     },
     {
       "id": "src-811c9106b75b-q024",
@@ -13608,7 +13742,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Cùng một hoạt động sản xuất hàng hóa được xét dưới hai mặt: lao động cụ thể tạo giá trị sử dụng và lao động trừu tượng tạo giá trị. Đó là cơ sở của hai thuộc tính hàng hóa."
     },
     {
       "id": "src-811c9106b75b-q025",
@@ -13851,7 +13986,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Nền kinh tế thị trường hiện đại kết hợp cơ chế thị trường với điều tiết của nhà nước. Động lực trực tiếp của chủ thể là lợi ích kinh tế; không thể suy từ đó rằng mọi nhà nước đều giữ vai trò chủ đạo như cách nói của phương án B."
     },
     {
       "id": "src-811c9106b75b-q027",
@@ -13965,7 +14101,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Các quyết định riêng lẻ và biến động cung–cầu có thể dẫn tới mất cân đối, khủng hoảng. Tính mở và cạnh tranh là đặc trưng của thị trường, không tự thân đồng nghĩa với khuyết tật được hỏi."
     },
     {
       "id": "src-811c9106b75b-q028",
@@ -14071,7 +14208,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Trao đổi ngang giá đòi hỏi các lượng hàng đem trao đổi có giá trị tương đương. Đó không phải yêu cầu mọi món hàng có cùng giá tiền hoặc mọi người sản xuất có hao phí cá biệt bằng nhau."
     },
     {
       "id": "src-811c9106b75b-q029",
@@ -14181,7 +14319,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Người hạ được hao phí cá biệt dưới mức xã hội sẽ có lợi thế. Áp lực đó thúc đẩy cải tiến kỹ thuật và hợp lý hóa sản xuất, là tác dụng trực tiếp và cụ thể được phương án C nêu."
     },
     {
       "id": "src-811c9106b75b-q030",
@@ -14291,7 +14430,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Trong lưu thông, người bán có động cơ đưa hàng từ nơi giá thấp sang nơi giá cao hơn. Dòng hàng này điều chỉnh phân bố hàng giữa các thị trường, thể hiện tác dụng điều tiết của quy luật giá trị."
     },
     {
       "id": "src-811c9106b75b-q031",
@@ -14494,7 +14634,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị không trực tiếp hiện thành con số quan sát trên thị trường. Sự lên xuống của giá cả quanh cơ sở giá trị cho thấy quy luật giá trị đang tác động tới lựa chọn của người sản xuất và trao đổi."
     },
     {
       "id": "src-811c9106b75b-q033",
@@ -14604,7 +14745,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Cơ chế giá cả và cạnh tranh khuyến khích các chủ thể sử dụng nguồn lực vào nơi có lợi thế. Nhờ đó tiềm năng của doanh nghiệp, vùng và địa phương có điều kiện được phát huy."
     },
     {
       "id": "src-811c9106b75b-q034",
@@ -14710,7 +14852,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Hai thuộc tính cùng tồn tại trong một hàng hóa nên thống nhất với nhau. Tuy nhiên người bán hướng tới thực hiện giá trị, người mua hướng tới giá trị sử dụng; hàng không bán được thì giá trị chưa được thực hiện, thể hiện mặt mâu thuẫn."
     },
     {
       "id": "src-811c9106b75b-q035",
@@ -14816,7 +14959,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Trong cơ chế thị trường, giá cả hình thành thông qua trao đổi, cạnh tranh và tương tác cung–cầu. Cơ chế kế hoạch hóa tập trung chủ yếu dựa vào quyết định và phân bổ hành chính."
     },
     {
       "id": "src-811c9106b75b-q036",
@@ -14922,7 +15066,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Người sản xuất kết hợp nguồn lực để tạo hàng hóa và đưa chúng ra thị trường. Quảng cáo hay bán hàng chỉ là một số hoạt động trong vai trò rộng hơn là sản xuất và cung ứng."
     },
     {
       "id": "src-811c9106b75b-q037",
@@ -15028,7 +15173,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Nhà nước thiết lập và thực thi khuôn khổ quản lý kinh tế, đồng thời điều tiết và xử lý khuyết tật thị trường. Thu thuế hoặc cung cấp hàng công ích chỉ là những bộ phận của vai trò đó."
     },
     {
       "id": "src-811c9106b75b-q038",
@@ -15134,7 +15280,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Khi giá cả và lợi ích thay đổi, nhà sản xuất mở rộng hoặc thu hẹp quy mô, kéo theo sản lượng thay đổi. Vận chuyển từ nơi giá thấp sang nơi giá cao là điều tiết lưu thông, không phải trực tiếp điều tiết sản xuất."
     },
     {
       "id": "src-811c9106b75b-q039",
@@ -15240,7 +15387,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Hàng hóa vừa là hình thức phổ biến của của cải tư bản, vừa là đơn vị cơ bản chứa các quan hệ và mâu thuẫn cần phân tích. Ba nhận xét đều giải thích việc bắt đầu nghiên cứu từ hàng hóa."
     },
     {
       "id": "src-811c9106b75b-q040",
@@ -15346,7 +15494,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Định nghĩa thời gian cần thiết dùng điều kiện sản xuất bình thường, trình độ thành thạo và cường độ trung bình; năng suất quyết định thời gian cho một đơn vị. Quy mô riêng của một cơ sở không phải tiêu chí trực tiếp của định nghĩa đó."
     },
     {
       "id": "src-811c9106b75b-q041",
@@ -15557,7 +15706,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Trong điều kiện thông thường, nhóm sản xuất theo điều kiện phổ biến và cung phần lớn sản lượng có ảnh hưởng chủ yếu tới mức xã hội. Vì vậy thời gian xã hội thường gần thời gian của nhóm ấy, không đơn giản là trung bình cộng mọi cơ sở."
     },
     {
       "id": "src-811c9106b75b-q043",
@@ -15663,7 +15813,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Quy luật lưu thông tiền tệ giúp xác định lượng tiền phù hợp nhu cầu giao dịch. Vận dụng đúng giúp hạn chế tình trạng đưa tiền vượt yêu cầu lưu thông gây áp lực lạm phát."
     },
     {
       "id": "src-811c9106b75b-q044",
@@ -15765,7 +15916,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị là cơ sở của giá cả, nhưng giá cả còn thay đổi theo cung–cầu, cạnh tranh và sức mua của tiền. Vì vậy phương án D đầy đủ hơn khẳng định giá trị quyết định giá cả mà không nêu tính độc lập tương đối."
     },
     {
       "id": "src-811c9106b75b-q045",
@@ -15867,7 +16019,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Phương tiện thanh toán dùng khi việc chi trả có thể tách thời điểm khỏi chuyển giao hàng hóa, như trả nợ hoặc ứng trước. Khác với phương tiện lưu thông, tiền không nhất thiết làm trung gian ngay tại lúc đổi hàng."
     },
     {
       "id": "src-19f7f928932c-q001",
@@ -15965,7 +16118,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Nếu ngày lao động chỉ bằng thời gian tất yếu thì chỉ đủ bù giá trị sức lao động và không có thời gian thặng dư. Để tạo thặng dư, ngày lao động phải dài hơn thời gian tất yếu."
     },
     {
       "id": "src-19f7f928932c-q002",
@@ -16063,7 +16217,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Rút ngắn thời gian tất yếu làm thời gian thặng dư tăng trong ngày làm không đổi. Việc này gắn với giảm giá trị sức lao động qua năng suất xã hội. D được hiểu là tổng hợp A, B, C trong cùng hướng giảm; C là mô tả phương pháp rõ nhất."
     },
     {
       "id": "src-19f7f928932c-q003",
@@ -16263,7 +16418,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Cả giá trị thặng dư tương đối và siêu ngạch đều gắn với tăng năng suất. Khác nhau ở phạm vi: tương đối dựa trên năng suất xã hội, còn siêu ngạch dựa trên ưu thế năng suất cá biệt."
     },
     {
       "id": "src-19f7f928932c-q005",
@@ -16361,7 +16517,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Doanh nghiệp có giá trị cá biệt thấp hơn mức xã hội có thể thu phần thặng dư vượt trội khi bán theo điều kiện chung. Đó là cơ sở cá biệt của siêu ngạch, khác cơ chế tăng năng suất xã hội của tương đối."
     },
     {
       "id": "src-19f7f928932c-q006",
@@ -16459,7 +16616,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Giá trị mới do lao động sống tạo ra gồm v+m. Phần vượt quá giá trị sức lao động v là m, tức giá trị thặng dư. Không nên đồng nhất m với mọi khoản chênh giá mua–bán."
     },
     {
       "id": "src-19f7f928932c-q007",
@@ -16659,7 +16817,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Tiêu chí là vai trò của từng bộ phận trong tạo thặng dư: c chỉ chuyển giá trị đã có, còn sử dụng sức lao động mua bằng v tạo giá trị mới v+m. Cách chuyển giá trị theo chu kỳ là tiêu chí cố định/lưu động."
     },
     {
       "id": "src-19f7f928932c-q009",
@@ -16757,7 +16916,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Tư bản cố định và lưu động được phân biệt theo cách giá trị được chuyển vào sản phẩm. Cố định chuyển từng phần qua nhiều chu kỳ; lưu động được hoàn lại toàn bộ sau một vòng."
     },
     {
       "id": "src-19f7f928932c-q010",
@@ -16855,7 +17015,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Tư bản ứng trước K gồm phần mua tư liệu sản xuất c và phần mua sức lao động v. Giá trị thặng dư chưa được tạo ra lúc ứng vốn ban đầu nên không nằm trong K=c+v."
     },
     {
       "id": "src-19f7f928932c-q011",
@@ -16953,7 +17114,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Tư bản không chỉ là một vật như tiền hoặc máy móc. Trong quan hệ sản xuất tư bản chủ nghĩa, nó là giá trị được ứng ra để thu thặng dư từ việc sử dụng lao động làm thuê."
     },
     {
       "id": "src-19f7f928932c-q012",
@@ -17148,7 +17310,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Điểm đặc biệt của sức lao động là khi được sử dụng, nó có thể tạo ra lượng giá trị mới lớn hơn giá trị mua nó. Phần chênh lệch là cơ sở giải thích nguồn gốc giá trị thặng dư."
     },
     {
       "id": "src-19f7f928932c-q014",
@@ -17250,7 +17413,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "c và v là cách phân chia tư bản đang tham gia quá trình sản xuất theo vai trò trong tạo giá trị. Chúng không phải cách phân chia riêng của tư bản tiền tệ hoặc tư bản hàng hóa."
     },
     {
       "id": "src-19f7f928932c-q015",
@@ -17352,7 +17516,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "m′=m/v phản ánh phần thặng dư so với phần bù sức lao động, hay tỷ lệ thời gian thặng dư so với thời gian tất yếu. Nó đo trình độ khai thác lao động, không phải quy mô tuyệt đối của thặng dư."
     },
     {
       "id": "src-19f7f928932c-q016",
@@ -17450,7 +17615,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Kéo dài ngày lao động hoặc tăng cường độ có thể làm tăng lao động thặng dư. Tăng năng suất trong điều kiện tạo thặng dư tương đối hoặc siêu ngạch cũng có thể làm tăng phần thặng dư. Vì thế đề chọn phương án tổng hợp; không phải mọi tăng năng suất đều tự làm tăng tổng giá trị."
     },
     {
       "id": "src-19f7f928932c-q017",
@@ -17548,7 +17714,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Khối lượng M là số giá trị thặng dư thu được, thường tính M=m′×V khi m′ viết dạng tỷ số. Nó biểu thị quy mô khai thác lao động, trong khi tỷ suất m′ biểu thị trình độ."
     },
     {
       "id": "src-19f7f928932c-q018",
@@ -17650,7 +17817,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Giữ thời gian tất yếu không đổi nhưng kéo dài ngày làm thì phần thời gian thêm là thặng dư. Đây là phương pháp tuyệt đối, khác việc rút ngắn thời gian tất yếu của tương đối."
     },
     {
       "id": "src-19f7f928932c-q019",
@@ -17748,7 +17916,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Chi phí đào tạo là một bộ phận của giá trị sức lao động. Các bộ phận khác còn gồm tư liệu sinh hoạt cần thiết cho người lao động và tái sản xuất thế hệ lao động; tổng giá trị hàng họ tạo ra không đồng nhất với giá trị sức lao động."
     },
     {
       "id": "src-19f7f928932c-q020",
@@ -17850,7 +18019,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Tích lũy không chỉ là để dành tiền mà là chuyển một phần giá trị thặng dư thành tư bản phụ thêm để mở rộng sản xuất. Vì vậy đồng nhất tích lũy với tiết kiệm tư bản là không đúng."
     },
     {
       "id": "src-19f7f928932c-q021",
@@ -17952,7 +18122,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "p′=p/K×100% cho biết mỗi đơn vị vốn ứng trước đem lại bao nhiêu lợi nhuận. Do đó nó phản ánh mức doanh lợi, không trực tiếp đo trình độ khai thác lao động như m′."
     },
     {
       "id": "src-19f7f928932c-q022",
@@ -18050,7 +18221,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Tự do cạnh tranh và khả năng chuyển vốn giữa ngành tạo xu hướng bình quân hóa tỷ suất lợi nhuận. Chỉ có sản xuất hàng hóa hoặc phân công lao động nói chung thì chưa đủ giải thích lợi nhuận bình quân."
     },
     {
       "id": "src-19f7f928932c-q023",
@@ -18148,7 +18320,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Thương nghiệp chuyên trách tiêu thụ hàng, nên tư bản sản xuất nhường lại cho nó một phần giá trị thặng dư để tạo lợi nhuận thương nghiệp. B là lựa chọn gần ý đó nhất; nguồn cuối cùng không phải do mua bán thuần túy tự tạo ra."
     },
     {
       "id": "src-19f7f928932c-q024",
@@ -18250,7 +18423,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Vốn dịch chuyển từ nơi lợi nhuận thấp sang nơi lợi nhuận cao, làm cung và tỷ suất các ngành biến đổi. Xu hướng đó hình thành tỷ suất lợi nhuận bình quân và lợi nhuận bình quân."
     },
     {
       "id": "src-19f7f928932c-q025",
@@ -18352,7 +18526,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Chi phí mà nhà tư bản bỏ ra gồm phần mua tư liệu sản xuất c và sức lao động v, nên k=c+v. Giá trị thặng dư m thuộc giá trị hàng hóa nhưng không phải khoản nhà tư bản trả cho lao động thặng dư."
     },
     {
       "id": "src-19f7f928932c-q026",
@@ -18450,7 +18625,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Lợi nhuận một doanh nghiệp có thể lệch giá trị thặng dư vì giá bán và phân phối giữa các ngành. Trong tổng thể xã hội theo mô hình lý luận, tổng lợi nhuận bằng tổng giá trị thặng dư."
     },
     {
       "id": "src-19f7f928932c-q027",
@@ -18548,7 +18724,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Các nhân tố trực tiếp thường xét gồm tỷ suất thặng dư, cấu tạo và quy mô vốn, chu chuyển và tiết kiệm c. D không phải tên một nhân tố xác định trong danh sách này; hiểu rộng thì hoạt động kinh doanh vẫn có thể tác động lợi nhuận nên câu hỏi cần đọc trong phạm vi phân loại của bài."
     },
     {
       "id": "src-19f7f928932c-q028",
@@ -18658,7 +18835,8 @@
         ],
         "method": "calculation",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "K=400.000, c/v=4 nên v=400.000/5=80.000. m′=250% suy ra m=2,5×80.000=200.000. Với giả định toàn bộ c chuyển vào sản phẩm trong kỳ, W=K+m=600.000."
     },
     {
       "id": "src-19f7f928932c-q029",
@@ -18760,7 +18938,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Chu chuyển nhanh hơn cho phép cùng lượng vốn vận động nhiều vòng trong năm, có thể tăng khối lượng thặng dư năm và tỷ suất lợi nhuận năm. Tăng chi phí quảng cáo hoặc quy mô tích lũy không tự bảo đảm tỷ suất tăng."
     },
     {
       "id": "src-19f7f928932c-q030",
@@ -18907,7 +19086,8 @@
         ],
         "method": "calculation",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "v=500.000/(4+1)=100.000; m=200%×100.000=200.000. Phần đưa vào tích lũy bằng 50%×200.000=100.000 £, không phải toàn bộ giá trị thặng dư."
     },
     {
       "id": "src-19f7f928932c-q031",
@@ -19005,7 +19185,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Chuyển một phần thặng dư thành vốn phụ thêm làm lượng tư bản tăng và tạo điều kiện mở rộng sản xuất. Thời gian lưu thông hay tốc độ chu chuyển không nhất thiết thay đổi cùng chiều."
     },
     {
       "id": "src-19f7f928932c-q032",
@@ -19111,7 +19292,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Khi có tỷ suất lợi nhuận bình quân chung, lợi nhuận bình quân bằng tỷ suất đó nhân tư bản ứng trước. Vì vậy những lượng tư bản bằng nhau có lợi nhuận bình quân bằng nhau dù đầu tư khác ngành."
     },
     {
       "id": "src-19f7f928932c-q033",
@@ -19234,7 +19416,8 @@
         ],
         "method": "calculation",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "c=5v và K=c+v=780.000 nên v=130.000. m=300%×130.000=390.000. p′=m/K×100%=390.000/780.000×100%=50%."
     },
     {
       "id": "src-19f7f928932c-q034",
@@ -19429,7 +19612,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Cố định và lưu động là hai bộ phận của tư bản sản xuất được phân theo cách chu chuyển giá trị. Tư bản tiền tệ và hàng hóa là các hình thái khác trong tuần hoàn."
     },
     {
       "id": "src-19f7f928932c-q036",
@@ -19576,7 +19760,8 @@
         ],
         "method": "calculation",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "v=900.000/(8+1)=100.000; m=200%×100.000=200.000. p′=200.000/900.000×100%=22,222…%, làm tròn là 22,2%."
     },
     {
       "id": "src-19f7f928932c-q037",
@@ -19674,7 +19859,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Vốn cho nguyên, nhiên vật liệu và mua sức lao động được hoàn lại toàn bộ sau mỗi vòng sản xuất. Lưu ý sức lao động tạo giá trị mới để bù v; không phải giá trị của nó được chuyển cơ học như nguyên liệu."
     },
     {
       "id": "src-19f7f928932c-q038",
@@ -19776,7 +19962,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Tích lũy làm tăng quy mô tư bản và trong mô hình lý luận làm tăng khoảng cách thu nhập giữa chủ tư bản và lao động làm thuê. Không thể suy rằng tích lũy luôn làm tăng tỷ suất lợi nhuận."
     },
     {
       "id": "src-19f7f928932c-q039",
@@ -19903,7 +20090,8 @@
         ],
         "method": "calculation",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Vốn ba ngành là 3.000, 4.000 và 3.000, tổng 10.000. Với m′=200%, tổng m=2×(400+500+600)=3.000. Tỷ suất bình quân=3.000/10.000×100%=30%; không lấy trung bình cộng tỷ suất ba ngành."
     },
     {
       "id": "src-19f7f928932c-q040",
@@ -20126,7 +20314,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Thuật ngữ kinh tế chính trị được Antoine de Montchrétien dùng trong tác phẩm công bố năm 1615. Các mốc 1818, 1883 và 1895 không phải thời điểm xuất hiện thuật ngữ."
     },
     {
       "id": "src-c1f911017e70-q002",
@@ -20224,7 +20413,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Mục đích nghiên cứu là nhận ra các quy luật chi phối sản xuất và trao đổi. Chính sách kinh tế là việc vận dụng nhận thức ấy vào hoàn cảnh cụ thể, không phải bản thân mục đích khoa học cơ bản."
     },
     {
       "id": "src-c1f911017e70-q003",
@@ -20330,7 +20520,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Kinh tế chính trị tư sản cổ điển Anh, tiêu biểu là Adam Smith và David Ricardo, cung cấp những thành tựu lý luận về lao động và giá trị để Mác kế thừa, phê phán và phát triển."
     },
     {
       "id": "src-c1f911017e70-q004",
@@ -20428,7 +20619,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Những năm 1840 là giai đoạn Mác và Ăngghen hình thành nền tảng lý luận mới. Lênin về sau bảo vệ và phát triển học thuyết trong điều kiện lịch sử khác."
     },
     {
       "id": "src-c1f911017e70-q005",
@@ -20526,7 +20718,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Chức năng thực tiễn thể hiện ở việc dùng nhận thức quy luật để định hướng hoạt động kinh tế. Các chức năng còn thường được nêu là nhận thức, tư tưởng và phương pháp luận; A và B không phải tên các chức năng đó."
     },
     {
       "id": "src-c1f911017e70-q006",
@@ -20632,7 +20825,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Trừu tượng hóa khoa học gạt bỏ các yếu tố ngẫu nhiên, tạm thời để làm rõ quan hệ bản chất. Thống kê và mô hình có thể hỗ trợ nhưng không thay thế phương pháp đặc thù này."
     },
     {
       "id": "src-c1f911017e70-q007",
@@ -20742,7 +20936,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Mác và Ăngghen đặt nền tảng học thuyết; Lênin kế thừa và phát triển. Vì câu hỏi hỏi người sáng lập, cặp Mác–Ăngghen là lựa chọn phù hợp."
     },
     {
       "id": "src-c1f911017e70-q008",
@@ -20852,7 +21047,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Đối tượng là quan hệ xã hội của sản xuất và trao đổi, được xét gắn với lực lượng sản xuất và kiến trúc thượng tầng tương ứng. Chỉ nghiên cứu yếu tố kỹ thuật hoặc riêng thị trường thì chưa bao quát đối tượng này."
     },
     {
       "id": "src-c1f911017e70-q009",
@@ -20962,7 +21158,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Việc nghiên cứu giúp nhận thức bản chất và quy luật kinh tế, đồng thời rèn tư duy trừu tượng và phương pháp luận khoa học. Do các ý cùng nói đến những tác dụng đó, lựa chọn tổng hợp phù hợp."
     },
     {
       "id": "src-c1f911017e70-q010",
@@ -21092,7 +21289,8 @@
         ],
         "method": "reasoned_from_theory",
         "review_date": "2026-11-10"
-      }
+      },
+      "explanation": "Trừu tượng hóa khoa học tạm gạt các biểu hiện bề ngoài và yếu tố ngẫu nhiên để nhận diện thuộc tính bản chất. Dùng đồ thị hoặc kết hợp logic–lịch sử là phương pháp hỗ trợ khác, không phải định nghĩa trực tiếp của thao tác này."
     }
   ],
   "answer_references": {

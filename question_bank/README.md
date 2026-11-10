@@ -9,6 +9,7 @@ Thư mục này là nguồn dữ liệu câu hỏi để dùng cho việc ôn t�
 - `import_report.json`: báo cáo lần nhập Word ban đầu, trước khi bổ sung đáp án; không phản ánh số câu thiếu đáp án hiện tại. Các nhóm trùng chỉ là gợi ý, chưa so sánh lựa chọn.
 - `ANSWER_REVIEW.md`: kết quả giải 96 câu ban đầu chưa có đáp án, kèm giải thích và nguồn tham khảo.
 - `answer_reviews.json`: lớp đáp án bổ sung, được áp dụng lại khi nhập Word.
+- `explanations.json`: giải thích cho 198 câu dùng trong đề một đáp án, được áp dụng lại cùng lớp đáp án. Có lưu ý cụ thể với câu phụ thuộc cách quy ước hoặc diễn đạt trong tài liệu.
 - `source_answer_confirmation.json`: ghi nhận người dùng xác nhận 115 đáp án trong Word là đúng, được áp dụng lại khi nhập dữ liệu.
 - `answer_review_summary.json`: thống kê sau khi bổ sung đáp án.
 - `apply_reviews.py`: áp dụng lớp đáp án, đồng bộ SQLite, JSON và báo cáo rà soát.
@@ -59,6 +60,7 @@ python question_bank/query.py --id '<mã câu hỏi>'
 | `answers` | Nhãn đáp án từ nguồn hoặc từ lần rà soát; không có dòng nếu chưa biết |
 | `answer_reviews` | Kết luận, giải thích, phương pháp và ngày rà soát |
 | `answer_references` | Tên và liên kết tài liệu lý thuyết |
+| `question_explanations` | Giải thích bổ sung; view `question_catalog` ưu tiên nội dung này khi có |
 | `metadata` | Phiên bản cấu trúc và chính sách đáp án |
 | `question_catalog` | View để tra cứu câu hỏi kèm tên file nguồn và nhãn đáp án |
 

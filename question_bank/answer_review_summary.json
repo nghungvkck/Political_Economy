@@ -10,5 +10,6 @@
   "total_questions_with_answers": 203,
   "nonempty_questions_without_answers": 8,
   "empty_placeholders": 1,
-  "user_confirmed_source_answers": 115
+  "user_confirmed_source_answers": 115,
+  "questions_with_supplemental_explanations": 198
 }

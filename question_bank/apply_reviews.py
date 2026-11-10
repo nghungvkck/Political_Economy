@@ -13,6 +13,9 @@ def apply_reviews():
     questions = {q['id']: q for q in data['questions']}
     confirmation_path = HERE / 'source_answer_confirmation.json'
     confirmation = json.loads(confirmation_path.read_text(encoding='utf-8')) if confirmation_path.exists() else None
+    explanations_path = HERE / 'explanations.json'
+    explanations = json.loads(explanations_path.read_text(encoding='utf-8'))['items'] if explanations_path.exists() else []
+    assert len(explanations) == len({item['question_id'] for item in explanations})
     assert len(overlay['reviews']) == len({r['question_id'] for r in overlay['reviews']})
     dump = lambda x: json.dumps(x, ensure_ascii=False)
     with sqlite3.connect(HERE / 'questions.sqlite3') as conn:
@@ -32,6 +35,9 @@ def apply_reviews():
         )''')
         conn.execute('''CREATE TABLE IF NOT EXISTS answer_references (
             id TEXT PRIMARY KEY, title TEXT NOT NULL, url TEXT NOT NULL
+        )''')
+        conn.execute('''CREATE TABLE IF NOT EXISTS question_explanations (
+            question_id TEXT PRIMARY KEY REFERENCES questions(id), explanation TEXT NOT NULL
         )''')
         for rid, ref in overlay['references'].items():
             conn.execute('INSERT OR REPLACE INTO answer_references VALUES (?,?,?)',
@@ -65,23 +71,30 @@ def apply_reviews():
             conn.execute('INSERT OR REPLACE INTO answer_reviews VALUES (?,?,?,?,?,?)',
                          (q['id'], review['review_status'], review['explanation'], dump(review['reference_ids']),
                           review['method'], overlay['review_date']))
-        conn.execute("INSERT OR REPLACE INTO metadata VALUES ('schema_version','2')")
+        for item in explanations:
+            q = questions[item['question_id']]
+            assert item['explanation'].strip() and q['question']
+            q['explanation'] = item['explanation']
+            conn.execute('INSERT OR REPLACE INTO question_explanations VALUES (?,?)',
+                         (q['id'], item['explanation']))
+        conn.execute("INSERT OR REPLACE INTO metadata VALUES ('schema_version','3')")
         conn.execute("INSERT OR REPLACE INTO metadata VALUES ('answer_policy',?)", (overlay['policy'],))
         conn.execute('DROP VIEW question_catalog')
         conn.execute('''CREATE VIEW question_catalog AS
             SELECT q.id,q.chapter,q.section,q.question,s.filename AS source_filename,
                 q.source_number,q.status,q.answer_origin,q.answer_verified,
                 (SELECT group_concat(label, ',') FROM answers a WHERE a.question_id=q.id) AS answer_labels,
-                r.review_status,r.explanation,
+                r.review_status,COALESCE(e.explanation,r.explanation) AS explanation,
                 CASE WHEN q.status IN ('incomplete','needs_review') THEN 0
                      WHEN q.issues_json LIKE '%duplicate_option_text%' THEN 0
                      WHEN (SELECT count(*) FROM answers a WHERE a.question_id=q.id)=1 THEN 1 ELSE 0 END
                      AS eligible_for_single_answer_quiz
             FROM questions q JOIN sources s ON s.id=q.source_id
-            LEFT JOIN answer_reviews r ON r.question_id=q.id''')
+            LEFT JOIN answer_reviews r ON r.question_id=q.id
+            LEFT JOIN question_explanations e ON e.question_id=q.id''')
         assert conn.execute('PRAGMA integrity_check').fetchone()[0] == 'ok'
         assert not conn.execute('PRAGMA foreign_key_check').fetchall()
-    data['schema_version'] = 2
+    data['schema_version'] = 3
     data['answer_references'] = overlay['references']
     if confirmation:
         data['source_answer_confirmation'] = confirmation
@@ -95,6 +108,7 @@ def apply_reviews():
         'nonempty_questions_without_answers': sum(bool(q['question']) and not q['answer_labels'] for q in questions.values()),
         'empty_placeholders': sum(not q['question'] for q in questions.values()),
         'user_confirmed_source_answers': len(confirmation['question_ids']) if confirmation else 0,
+        'questions_with_supplemental_explanations': len(explanations),
     }
     (HERE / 'answer_review_summary.json').write_text(json.dumps(stats, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     source_names = {s['id']: s['filename'] for s in data['sources']}
