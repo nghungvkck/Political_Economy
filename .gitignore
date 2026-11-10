@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+/.agents/
+/.aws/
+/.codex/
+/quiz_web/.openai/
+/quiz_web/on-tap-ktct.zip
+/question_bank/backups/

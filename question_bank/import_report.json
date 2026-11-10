@@ -1,0 +1,621 @@
+{
+  "statistics": {
+    "sources": 6,
+    "records": 212,
+    "nonempty_questions": 211,
+    "with_source_answer": 115,
+    "without_source_answer": 97,
+    "by_chapter": {
+      "2": 85,
+      "3": 117,
+      "1": 10
+    },
+    "issues": {
+      "duplicate_option_text": 1,
+      "empty_question": 1,
+      "option_count_not_four": 1,
+      "missing_answer": 97
+    }
+  },
+  "by_source": {
+    "Chuong2_2.docx": 40,
+    "Chuong3_Hanh.docx": 42,
+    "Chuong3_Hien.docx": 35,
+    "CÂU HỎI TN KTCT CHƯƠNG 2.docx": 45,
+    "CÂU HỎI TRẮC NGHIỆM CHƯƠNG 3.docx": 40,
+    "CÂU HỎI TRẮC NGHIỆM KTCT CHƯƠNG 1.docx": 10
+  },
+  "identical_question_stem_groups": [],
+  "records_to_review": [
+    {
+      "id": "src-ebbea014b34e-q002",
+      "issues": [
+        "duplicate_option_text"
+      ]
+    },
+    {
+      "id": "src-ebbea014b34e-q032",
+      "issues": [
+        "empty_question",
+        "option_count_not_four",
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-fa343e9bc4b6-q022",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q001",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q002",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q003",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q004",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q005",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q006",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q007",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q008",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q009",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q010",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q011",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q012",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q013",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q014",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q015",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q016",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q017",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q018",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q019",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q020",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q021",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q022",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q023",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q024",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q025",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q026",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q027",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q028",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q029",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q030",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q031",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q032",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q033",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q034",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q035",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q036",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q037",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q038",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q039",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q040",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q041",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q042",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q043",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q044",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-811c9106b75b-q045",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q001",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q002",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q003",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q004",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q005",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q006",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q007",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q008",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q009",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q010",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q011",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q012",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q013",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q014",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q015",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q016",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q017",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q018",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q019",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q020",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q021",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q022",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q023",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q024",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q025",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q026",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q027",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q028",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q029",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q030",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q031",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q032",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q033",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q034",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q035",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q036",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q037",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q038",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q039",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-19f7f928932c-q040",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-c1f911017e70-q001",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-c1f911017e70-q002",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-c1f911017e70-q003",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-c1f911017e70-q004",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-c1f911017e70-q005",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-c1f911017e70-q006",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-c1f911017e70-q007",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-c1f911017e70-q008",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-c1f911017e70-q009",
+      "issues": [
+        "missing_answer"
+      ]
+    },
+    {
+      "id": "src-c1f911017e70-q010",
+      "issues": [
+        "missing_answer"
+      ]
+    }
+  ]
+}

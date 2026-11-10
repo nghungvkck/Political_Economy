@@ -1,0 +1,14 @@
+{
+  "review_date": "2026-11-10",
+  "reviewed_previously_unanswered": 96,
+  "review_outcomes": {
+    "resolved": 84,
+    "needs_review": 8,
+    "multiple_correct_options": 4
+  },
+  "total_nonempty_questions": 211,
+  "total_questions_with_answers": 203,
+  "nonempty_questions_without_answers": 8,
+  "empty_placeholders": 1,
+  "user_confirmed_source_answers": 115
+}

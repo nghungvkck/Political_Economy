@@ -1,0 +1,1181 @@
+{
+  "review_date": "2026-11-10",
+  "scope": "96 nonempty questions without answers at initial import",
+  "policy": "Solutions reasoned from supplied questions and cited theory; not an official teacher answer key. Ambiguous/invalid items are excluded from automatic single-answer grading.",
+  "references": {
+    "GT": {
+      "title": "Giáo trình học phần Kinh tế chính trị Mác – Lênin, phần 1 (ĐH Tài nguyên và Môi trường TP.HCM lưu trữ)",
+      "url": "https://hcmunre.edu.vn/upload/elfinder/Trang%20Khoa/Khoa%20Luat%20%26LLCT/Ph%E1%BA%A7n%201_GT%20h%E1%BB%8Dc%20ph%E1%BA%A7n%20Kinh%20t%E1%BA%BF%20ch%C3%ADnh%20tr%E1%BB%8B%20MNL%28K%29%20Tr%20%C4%91%E1%BA%A7u-%20Tr100.pdf"
+    },
+    "M1": {
+      "title": "C. Mác, Tư bản, quyển I, chương 1: Hàng hóa",
+      "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm"
+    },
+    "M3": {
+      "title": "C. Mác, Tư bản, quyển I, chương 3: Tiền tệ",
+      "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch03.htm"
+    },
+    "M6": {
+      "title": "C. Mác, Tư bản, quyển I, chương 6: Mua và bán sức lao động",
+      "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch06.htm"
+    },
+    "M12": {
+      "title": "C. Mác, Tư bản, quyển I, chương 12: Giá trị thặng dư tương đối",
+      "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch12.htm"
+    },
+    "M24": {
+      "title": "C. Mác, Tư bản, quyển I, chương 24: Chuyển hóa giá trị thặng dư thành tư bản",
+      "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch24.htm"
+    },
+    "P2": {
+      "title": "C. Mác, Tư bản, quyển III, chương 2: Tỷ suất lợi nhuận",
+      "url": "https://www.marxists.org/archive/marx/works/1894-c3/ch02.htm"
+    },
+    "P9": {
+      "title": "C. Mác, Tư bản, quyển III, chương 9: Lợi nhuận bình quân và giá cả sản xuất",
+      "url": "https://www.marxists.org/archive/marx/works/1894-c3/ch09.htm"
+    }
+  },
+  "reviews": [
+    {
+      "question_id": "src-c1f911017e70-q001",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "1615.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-c1f911017e70-q002",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B nêu mục tiêu tìm quy luật.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-c1f911017e70-q003",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C: nguồn kế thừa trực tiếp.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-c1f911017e70-q004",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B: thập niên 1840.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-c1f911017e70-q005",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C là một chức năng; A, B không phải tên chức năng.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-c1f911017e70-q006",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C: phương pháp đặc thù.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-c1f911017e70-q007",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C: Mác và Ăngghen sáng lập; Lênin phát triển.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-c1f911017e70-q008",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D mô tả đầy đủ đối tượng.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-c1f911017e70-q009",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D bao quát các ý nghĩa đã nêu.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-c1f911017e70-q010",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C mô tả đúng thao tác trừu tượng hóa.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q001",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D bao gồm điều kiện trao đổi.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q002",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D gần nhất; nên thay “tính chất tư nhân” bằng “sự tách biệt tương đối về kinh tế”.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q003",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D.",
+      "reference_ids": [
+        "M3"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q004",
+      "answer_labels": [],
+      "review_status": "needs_review",
+      "explanation": "Đề không nói rõ giá trị toàn bộ sản phẩm hay một đơn vị. Nếu nói một đơn vị thì C đúng; D cũng không phải nhân tố trực tiếp của lượng giá trị. Cần sửa câu hỏi.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q005",
+      "answer_labels": [
+        "B",
+        "C"
+      ],
+      "review_status": "multiple_correct_options",
+      "explanation": "B và C đều đúng: giá trị đơn vị cùng chiều thời gian cần thiết, ngược chiều năng suất. Không thể chấm một đáp án duy nhất.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q006",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q007",
+      "answer_labels": [
+        "A"
+      ],
+      "review_status": "resolved",
+      "explanation": "A.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q008",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q009",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C; A gán hoạt động sản xuất cho thị trường.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q010",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C là yếu tố không thuộc hai điều kiện ra đời.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q011",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C phù hợp nhất trong bốn lựa chọn.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q012",
+      "answer_labels": [
+        "A",
+        "C"
+      ],
+      "review_status": "multiple_correct_options",
+      "explanation": "A và C đều đúng; B sai nên D sai. Đề cần ghi chọn nhiều đáp án hoặc sửa lựa chọn.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q013",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q014",
+      "answer_labels": [],
+      "review_status": "needs_review",
+      "explanation": "Không có phương án đúng. A làm giảm giá trị đơn vị, C không làm tăng nó; B không đủ để kết luận. Có thể sửa A thành “Năng suất lao động giảm”.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q015",
+      "answer_labels": [
+        "A"
+      ],
+      "review_status": "resolved",
+      "explanation": "A, hiểu là người bình thường có khả năng lao động.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q016",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q017",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q018",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q019",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D là chủ thể sản xuất trực tiếp.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q020",
+      "answer_labels": [
+        "A"
+      ],
+      "review_status": "resolved",
+      "explanation": "A: hai thuộc tính.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q021",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C.",
+      "reference_ids": [
+        "M3"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q022",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "(2×250 + 4×450 + 1×100)/(250+450+100) = 3 giờ/HH → B; theo mô hình bình quân gia quyền của bài tập.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "calculation"
+    },
+    {
+      "question_id": "src-811c9106b75b-q023",
+      "answer_labels": [
+        "A"
+      ],
+      "review_status": "resolved",
+      "explanation": "A: điểm xuất phát dễ quan sát. C dùng “cơ sở” không chính xác bằng “vật mang”.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q024",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q025",
+      "answer_labels": [],
+      "review_status": "needs_review",
+      "explanation": "Bình quân gia quyền = (6×500+4×650+10×150)/1300 = 71/13 ≈ 5,461538 USD/sp. Không khớp A–D. Nếu áp dụng điều kiện nhóm chiếm ưu thế thì 4 USD/sp cũng không nằm trong lựa chọn. Không chọn số gần nhất.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "calculation"
+    },
+    {
+      "question_id": "src-811c9106b75b-q026",
+      "answer_labels": [
+        "A"
+      ],
+      "review_status": "resolved",
+      "explanation": "A. B khái quát sai vai trò nhà nước cho mọi nền kinh tế thị trường; C thêm “xã hội” vào động lực trực tiếp nên không chọn D.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q027",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q028",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B: các lượng hàng đem đổi ngang giá.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q029",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C là tác dụng được nêu cụ thể; các phương án khác diễn đạt quá rộng.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q030",
+      "answer_labels": [
+        "A"
+      ],
+      "review_status": "resolved",
+      "explanation": "A mô tả điều tiết lưu thông.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q031",
+      "answer_labels": [],
+      "review_status": "needs_review",
+      "explanation": "Không đủ rõ để chốt đáp án thi: A có thể là ý người ra đề về cân đối; D phù hợp nếu hiểu không có đẳng thức bắt buộc ở mọi thời điểm. Cần phân biệt mục tiêu cân bằng với nội dung quy luật.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q032",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q033",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q034",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q035",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q036",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q037",
+      "answer_labels": [
+        "A"
+      ],
+      "review_status": "resolved",
+      "explanation": "A bao quát vai trò nhà nước.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q038",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B: thay đổi quy mô và sản lượng.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q039",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D tổng hợp ba góc nhìn.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q040",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C không phải điều kiện trung bình dùng trong định nghĩa.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q041",
+      "answer_labels": [],
+      "review_status": "needs_review",
+      "explanation": "C gần ý định ra đề nhưng “người sản xuất chấp nhận” chưa phải tiêu chuẩn xác định giá trị xã hội. Nếu đọc chặt thì D có thể đúng. Cần sửa C thành hao phí lao động xã hội cần thiết / điều kiện sản xuất trung bình.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q042",
+      "answer_labels": [
+        "A"
+      ],
+      "review_status": "resolved",
+      "explanation": "A trong điều kiện sản xuất thông thường; không phải bình quân cộng giản đơn.",
+      "reference_ids": [
+        "M1"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q043",
+      "answer_labels": [
+        "A"
+      ],
+      "review_status": "resolved",
+      "explanation": "A phù hợp nhất; B, C không mô tả vai trò trực tiếp.",
+      "reference_ids": [
+        "M3"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q044",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D đầy đủ hơn B.",
+      "reference_ids": [
+        "M3"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-811c9106b75b-q045",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C phân biệt với vai trò trung gian của tiền.",
+      "reference_ids": [
+        "M3"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q001",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B; trùng nội dung câu trung bình 6 của Chuong3_Hanh.docx (đáp án C theo thứ tự khác).",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q002",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D theo cách hiểu A, B là các biến đổi cùng chiều với C: giá trị sức lao động và thời gian tất yếu đều giảm. C là cách diễn đạt chính xác nhất; A nên viết rõ “giảm”.",
+      "reference_ids": [
+        "M12"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q003",
+      "answer_labels": [
+        "A",
+        "C"
+      ],
+      "review_status": "multiple_correct_options",
+      "explanation": "A và C đúng. B không nhất thiết đúng: cải tiến tổ chức cũng có thể nâng năng suất, không buộc phải là công nghệ mới. D vì vậy không chắc đúng.",
+      "reference_ids": [
+        "M12"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q004",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D là điểm chung, không buộc cùng mức cá biệt hay xã hội.",
+      "reference_ids": [
+        "M12"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q005",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B xét đặc trưng của siêu ngạch.",
+      "reference_ids": [
+        "M12"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q006",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C định nghĩa chính xác; D là biểu hiện lợi nhuận, cần thêm giả định bán đúng giá trị mới đồng nhất về lượng.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q007",
+      "answer_labels": [
+        "A",
+        "B"
+      ],
+      "review_status": "multiple_correct_options",
+      "explanation": "A và B đều là ý nghĩa đúng. C phù hợp với phân chia cố định/lưu động nên D sai. Cần dạng chọn nhiều.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q008",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q009",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B; đối chiếu Chuong3_Hien.docx câu 50.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q010",
+      "answer_labels": [
+        "A"
+      ],
+      "review_status": "resolved",
+      "explanation": "A: K=c+v.",
+      "reference_ids": [
+        "P2"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q011",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D.",
+      "reference_ids": [
+        "M6"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q012",
+      "answer_labels": [],
+      "review_status": "needs_review",
+      "explanation": "D là đáp án dự kiến nhưng B viết “hoàn toàn không có ... và của cải gì” quá tuyệt đối. Điều kiện là không có đủ tư liệu để tự sản xuất, phải bán sức lao động. C chỉ là một điều kiện. Cần sửa B trước khi chốt.",
+      "reference_ids": [
+        "M6"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q013",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B; nên bổ sung “lớn hơn giá trị bản thân nó” để nêu đặc tính đầy đủ.",
+      "reference_ids": [
+        "M6"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q014",
+      "answer_labels": [
+        "A"
+      ],
+      "review_status": "resolved",
+      "explanation": "A; đối chiếu Chuong3_Hanh.docx câu 19.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q015",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C; đối chiếu Chuong3_Hanh.docx câu 15.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q016",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D trong các điều kiện phù hợp; “tăng năng suất” ở C phải hiểu theo cơ chế tạo thặng dư tương đối/siêu ngạch, không phải mọi tăng năng suất đều tự động tăng tổng giá trị.",
+      "reference_ids": [
+        "M12"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q017",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q018",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q019",
+      "answer_labels": [
+        "A"
+      ],
+      "review_status": "resolved",
+      "explanation": "A là một bộ phận; đề chưa liệt kê đầy đủ các bộ phận còn lại.",
+      "reference_ids": [
+        "M6"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q020",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B.",
+      "reference_ids": [
+        "M24"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q021",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D.",
+      "reference_ids": [
+        "P2"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q022",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C.",
+      "reference_ids": [
+        "P9"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q023",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B gần nhất; diễn đạt chuẩn là một phần giá trị thặng dư được nhường cho tư bản thương nghiệp.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q024",
+      "answer_labels": [
+        "A"
+      ],
+      "review_status": "resolved",
+      "explanation": "A.",
+      "reference_ids": [
+        "P9"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q025",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C; k=c+v, không bao gồm lao động thặng dư.",
+      "reference_ids": [
+        "P2"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q026",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D trong phạm vi toàn xã hội theo mô hình lý luận.",
+      "reference_ids": [
+        "P9"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q027",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D là phương án phù hợp nhất với danh sách nhân tố trực tiếp trong giáo trình. Hiểu rộng, hoạt động kinh doanh vẫn có thể ảnh hưởng lợi nhuận nên cách hỏi cần thu hẹp.",
+      "reference_ids": [
+        "P2"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q028",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "v=400.000/5=80.000; m=2,5v=200.000; W=400.000+200.000=600.000 → D. Giả định toàn bộ c chuyển vào sản phẩm và một chu kỳ như mô hình bài tập.",
+      "reference_ids": [
+        "P2"
+      ],
+      "method": "calculation"
+    },
+    {
+      "question_id": "src-19f7f928932c-q029",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B.",
+      "reference_ids": [
+        "P2"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q030",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "v=500.000/5=100.000; m=2v=200.000; tích lũy=50%×200.000=100.000 £ → B.",
+      "reference_ids": [
+        "M24"
+      ],
+      "method": "calculation"
+    },
+    {
+      "question_id": "src-19f7f928932c-q031",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B.",
+      "reference_ids": [
+        "M24"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q032",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C; đối chiếu Chuong3_Hien.docx câu 71.",
+      "reference_ids": [
+        "P9"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q033",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "v=780.000/6=130.000; m=390.000; p′=390.000/780.000×100%=50% → C.",
+      "reference_ids": [
+        "P2"
+      ],
+      "method": "calculation"
+    },
+    {
+      "question_id": "src-19f7f928932c-q034",
+      "answer_labels": [],
+      "review_status": "needs_review",
+      "explanation": "Không phương án nào nêu định nghĩa k + lợi nhuận bình quân. D có thể là ý định dùng thuật ngữ “giá cả cạnh tranh” nhưng quá rộng; cần xác nhận cách dùng của giảng viên hoặc sửa lựa chọn.",
+      "reference_ids": [
+        "P9"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q035",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q036",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "v=900.000/9=100.000; m=200.000; p′=200.000/900.000×100%≈22,2% → C.",
+      "reference_ids": [
+        "P2"
+      ],
+      "method": "calculation"
+    },
+    {
+      "question_id": "src-19f7f928932c-q037",
+      "answer_labels": [
+        "B"
+      ],
+      "review_status": "resolved",
+      "explanation": "B.",
+      "reference_ids": [
+        "GT"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q038",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "C.",
+      "reference_ids": [
+        "M24"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-19f7f928932c-q039",
+      "answer_labels": [
+        "C"
+      ],
+      "review_status": "resolved",
+      "explanation": "Tổng K=3.000+4.000+3.000=10.000; tổng m=2×(400+500+600)=3.000; p̄′=30% → C.",
+      "reference_ids": [
+        "P9"
+      ],
+      "method": "calculation"
+    },
+    {
+      "question_id": "src-19f7f928932c-q040",
+      "answer_labels": [],
+      "review_status": "needs_review",
+      "explanation": "Không có đáp án phủ định chắc chắn. A, B, C đều có thể làm tăng tích lũy; D cũng có thể góp phần: với K và tỷ lệ tích lũy cố định, m=p′K tăng thì phần tích lũy tăng. D chỉ là đáp án dự kiến nếu đề hỏi nhân tố không được liệt kê riêng trong giáo trình; cần sửa đề.",
+      "reference_ids": [
+        "M24"
+      ],
+      "method": "reasoned_from_theory"
+    },
+    {
+      "question_id": "src-fa343e9bc4b6-q022",
+      "answer_labels": [
+        "D"
+      ],
+      "review_status": "resolved",
+      "explanation": "D: giá cả sản xuất = k + lợi nhuận bình quân.",
+      "reference_ids": [
+        "P9"
+      ],
+      "method": "reasoned_from_theory"
+    }
+  ]
+}
