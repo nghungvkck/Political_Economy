@@ -6,6 +6,7 @@ Trang web trắc nghiệm Kinh tế chính trị Mác – Lênin. Tạo đề ng
 
 - Tạo đề 50 câu theo đúng tỷ lệ các chương, không lặp câu trong một đề.
 - Chọn một đáp án cho mỗi câu, có thể đổi lựa chọn trước khi nộp.
+- Hiện đúng / sai ngay dưới các lựa chọn sau khi chọn; nếu sai, hiển thị đáp án đúng. Khi đổi lựa chọn, kết quả cập nhật ngay.
 - Chuyển câu bằng nút trước / tiếp hoặc bảng số câu hỏi.
 - Hiển thị tiến độ và xác nhận trước khi nộp bài.
 - Chấm điểm trên thang 10, thống kê kết quả theo chương.
@@ -25,6 +26,8 @@ Trang web trắc nghiệm Kinh tế chính trị Mác – Lênin. Tạo đề ng
 | **Tổng** | **50** | **100%** |
 
 Mỗi câu đúng được **0,2 điểm**; câu sai hoặc bỏ trống được 0 điểm. Điểm tối đa là 10.
+
+Khi nộp bài, tổng điểm được tính theo các lựa chọn đang lưu cuối cùng của 50 câu.
 
 Ngân hàng dành cho trang web hiện có **198 câu**: 10 câu chương 1, 78 câu chương 2 và 110 câu chương 3. Vì chương 1 có đúng 10 câu nên mỗi đề dùng đủ 10 câu này. Câu chương 2 và 3 được chọn ngẫu nhiên; thứ tự 50 câu được đảo, thứ tự lựa chọn A–D được giữ nguyên.
 

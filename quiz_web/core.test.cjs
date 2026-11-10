@@ -91,10 +91,17 @@ test('UI flow: start, change an answer, navigate, submit, review and start a fre
   const wrong = q.options.find(o => o.label !== q.answer).label;
   app.answer(first, wrong);
   assert.equal(app.saved().answers[first], wrong);
+  assert.match(app.html(), /feedback-incorrect/);
+  assert.match(app.html(), /<strong>Sai\.<\/strong> Đáp án đúng:/);
+  assert.match(app.html(), /selected answer-wrong/);
   app.answer(first, q.answer);
   assert.equal(app.saved().answers[first], q.answer);
+  assert.match(app.html(), /feedback-correct/);
+  assert.match(app.html(), /<strong>Đúng\.<\/strong>/);
+  assert.doesNotMatch(app.html(), /<strong>Sai\.<\/strong>/);
   app.click('next');
   assert.equal(app.saved().current, 1);
+  assert.doesNotMatch(app.html(), /<strong>(Đúng|Sai)\.<\/strong>/);
   const second = app.saved().exam[1];
   const q2 = bank.find(q => q.id === second);
   app.answer(second, q2.options.find(o => o.label !== q2.answer).label);
@@ -109,7 +116,7 @@ test('UI flow: start, change an answer, navigate, submit, review and start a fre
   assert.equal(app.saved().phase, 'result');
   assert.match(app.html(), /Kết quả bài làm/);
   assert.equal((app.html().match(/class="review-card"/g) || []).length, 50);
-  assert.match(app.html(), /0,2/);
+  assert.match(app.html(), /<strong>0,2<\/strong><span>\/ 10<\/span>/);
   const previous = app.saved().exam;
   app.click('filter', { filter: 'incorrect' });
   assert.equal((app.html().match(/class="review-card"/g) || []).length, 1);

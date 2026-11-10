@@ -79,6 +79,11 @@
     const q = lookup.get(state.exam[state.current]);
     const answered = Object.keys(state.answers).length;
     const selected = state.answers[q.id];
+    const isCorrect = selected === q.answer;
+    const correctOption = q.options.find(o => o.label === q.answer);
+    const feedback = !selected ? '' : isCorrect
+      ? '<strong>Đúng.</strong>'
+      : `<strong>Sai.</strong> Đáp án đúng: <b>${q.answer}.</b> ${esc(correctOption.text)}`;
     app.innerHTML = `
       <div class="exam-heading"><div><h1 class="page-title">Đề luyện tập</h1></div><span class="exam-count"><b>50</b> câu hỏi · Một đáp án / câu</span></div>
       <div class="exam-layout">
@@ -86,10 +91,11 @@
           <div class="question-meta"><span class="chapter-tag chapter-tag-${q.chapter}">${chapterName(q.chapter)}</span><span>Câu <b>${state.current + 1}</b> / 50</span></div>
           <fieldset class="question-fieldset"><legend id="screen-title" tabindex="-1">${esc(q.text)}</legend>
           <div class="options">${q.options.map(o => `
-            <label class="option ${selected === o.label ? 'selected' : ''}" for="option-${o.label}">
+            <label class="option ${selected === o.label ? `selected ${isCorrect ? 'answer-right' : 'answer-wrong'}` : ''}" for="option-${o.label}">
               <input type="radio" name="answer" id="option-${o.label}" value="${o.label}" data-question="${q.id}" ${selected === o.label ? 'checked' : ''}>
-              <span class="option-letter" aria-hidden="true">${o.label}</span><span class="option-text">${esc(o.text)}</span><span class="option-check" aria-hidden="true">${selected === o.label ? '✓' : ''}</span>
+              <span class="option-letter" aria-hidden="true">${o.label}</span><span class="option-text">${esc(o.text)}</span><span class="option-check" aria-hidden="true">${selected === o.label ? (isCorrect ? '✓' : '✕') : ''}</span>
             </label>`).join('')}</div></fieldset>
+          <div id="answer-feedback" class="answer-feedback ${selected ? (isCorrect ? 'feedback-correct' : 'feedback-incorrect') : ''}" role="status" aria-live="polite" aria-atomic="true">${feedback}</div>
           <div class="question-footer"><button class="button secondary" data-action="previous" ${state.current === 0 ? 'disabled' : ''}><span aria-hidden="true">←</span> Câu trước</button><span class="selection-hint">${selected ? 'Đã lưu lựa chọn' : 'Chọn một đáp án ở trên'}</span>${state.current < 49 ? `<button class="button primary" data-action="next">Câu tiếp ${arrow}</button>` : '<button class="button primary" data-action="submit">Nộp bài ✓</button>'}</div>
         </section>
         <aside class="exam-sidebar" aria-label="Tiến độ làm bài">
